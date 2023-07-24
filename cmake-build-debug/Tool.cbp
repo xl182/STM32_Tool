@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Tool"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/STM32/Project/Tool/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/Tool/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/Tool/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/Tool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/Tool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tool.elf">
+				<Option output="D:/STM32/Project/Tool/cmake-build-debug/Tool.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/STM32/Project/Tool/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xE"/>
+					<Add directory="D:/STM32/Project/Tool/User/Inc"/>
+					<Add directory="D:/STM32/Project/Tool/Core/Inc"/>
+					<Add directory="D:/STM32/Project/Tool/FATFS/Target"/>
+					<Add directory="D:/STM32/Project/Tool/FATFS/App"/>
+					<Add directory="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="D:/STM32/Project/Tool/Middlewares/Third_Party/FatFs/src"/>
+					<Add directory="D:/STM32/Project/Tool/Middlewares/Third_Party/FatFs/src/drivers"/>
+					<Add directory="D:/STM32/Project/Tool/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="D:/STM32/Project/Tool/Drivers/CMSIS/Include"/>
+					<Add directory="d:\program files\stmicroelectronics\stm32cube\gnu-tools-arm-embedded\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\program files\stmicroelectronics\stm32cube\gnu-tools-arm-embedded\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\program files\stmicroelectronics\stm32cube\gnu-tools-arm-embedded\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\program files\stmicroelectronics\stm32cube\gnu-tools-arm-embedded\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\program files\stmicroelectronics\stm32cube\gnu-tools-arm-embedded\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\program files\stmicroelectronics\stm32cube\gnu-tools-arm-embedded\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/Tool/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tool.elf"/>
+					<CompileFile command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/Tool/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/Tool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/Tool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tool.elf/fast">
+				<Option output="D:/STM32/Project/Tool/cmake-build-debug/Tool.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/STM32/Project/Tool/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xE"/>
+					<Add directory="D:/STM32/Project/Tool/User/Inc"/>
+					<Add directory="D:/STM32/Project/Tool/Core/Inc"/>
+					<Add directory="D:/STM32/Project/Tool/FATFS/Target"/>
+					<Add directory="D:/STM32/Project/Tool/FATFS/App"/>
+					<Add directory="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="D:/STM32/Project/Tool/Middlewares/Third_Party/FatFs/src"/>
+					<Add directory="D:/STM32/Project/Tool/Middlewares/Third_Party/FatFs/src/drivers"/>
+					<Add directory="D:/STM32/Project/Tool/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="D:/STM32/Project/Tool/Drivers/CMSIS/Include"/>
+					<Add directory="d:\program files\stmicroelectronics\stm32cube\gnu-tools-arm-embedded\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\program files\stmicroelectronics\stm32cube\gnu-tools-arm-embedded\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\program files\stmicroelectronics\stm32cube\gnu-tools-arm-embedded\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\program files\stmicroelectronics\stm32cube\gnu-tools-arm-embedded\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\program files\stmicroelectronics\stm32cube\gnu-tools-arm-embedded\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\program files\stmicroelectronics\stm32cube\gnu-tools-arm-embedded\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/Tool/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tool.elf/fast"/>
+					<CompileFile command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/Tool/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/Tool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/Tool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/STM32/Project/Tool/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/Tool/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/Tool/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/Tool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/Tool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/STM32/Project/Tool/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/Tool/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/Tool/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/Tool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/STM32/Project/Tool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/STM32/Project/Tool/Core/Inc/gpio.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Core/Inc/i2c.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Core/Inc/main.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Core/Inc/sdio.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Core/Inc/spi.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Core/Inc/stm32f1xx_hal_conf.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Core/Inc/stm32f1xx_it.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Core/Inc/tim.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Core/Src/gpio.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Core/Src/i2c.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Core/Src/main.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Core/Src/sdio.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Core/Src/spi.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Core/Src/stm32f1xx_hal_msp.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Core/Src/stm32f1xx_it.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Core/Src/syscalls.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Core/Src/sysmem.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Core/Src/system_stm32f1xx.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Core/Src/tim.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Core/Startup/startup_stm32f103vctx.s">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/CMSIS/Device/ST/STM32F1xx/LICENSE.txt">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/CMSIS/LICENSE.txt">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_sd.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_i2c.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_sdmmc.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/FATFS/App/fatfs.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/FATFS/App/fatfs.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/FATFS/Target/bsp_driver_sd.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/FATFS/Target/bsp_driver_sd.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/FATFS/Target/ffconf.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Middlewares/Third_Party/FatFs/src/diskio.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Middlewares/Third_Party/FatFs/src/diskio.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Middlewares/Third_Party/FatFs/src/ff.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Middlewares/Third_Party/FatFs/src/ff.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Middlewares/Third_Party/FatFs/src/ff_gen_drv.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Middlewares/Third_Party/FatFs/src/integer.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Middlewares/Third_Party/FatFs/src/option/syscall.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/STM32F103VCTX_FLASH.ld">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/User/Inc/at24c02.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/User/Inc/base.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/User/Inc/callback.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/User/Inc/font.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/User/Inc/func.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/User/Inc/lcd.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/User/Inc/settings.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/User/Inc/sys.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/User/Inc/touch.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/User/Inc/user.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/User/Src/at24c02.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/User/Src/callback.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/User/Src/font.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/User/Src/func.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/User/Src/lcd.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/User/Src/touch.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/User/Src/user.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
