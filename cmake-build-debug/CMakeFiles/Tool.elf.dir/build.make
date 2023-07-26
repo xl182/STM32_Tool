@@ -501,10 +501,1718 @@ CMakeFiles/Tool.elf.dir/FATFS/Target/bsp_driver_sd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/FATFS/Target/bsp_driver_sd.c.s"
 	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\FATFS\Target\bsp_driver_sd.c -o CMakeFiles\Tool.elf.dir\FATFS\Target\bsp_driver_sd.c.s
 
+CMakeFiles/Tool.elf.dir/GUI/custom/custom.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/GUI/custom/custom.c.obj: D:/STM32/Project/Tool/GUI/custom/custom.c
+CMakeFiles/Tool.elf.dir/GUI/custom/custom.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/Tool.elf.dir/GUI/custom/custom.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/GUI/custom/custom.c.obj -MF CMakeFiles\Tool.elf.dir\GUI\custom\custom.c.obj.d -o CMakeFiles\Tool.elf.dir\GUI\custom\custom.c.obj -c D:\STM32\Project\Tool\GUI\custom\custom.c
+
+CMakeFiles/Tool.elf.dir/GUI/custom/custom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/GUI/custom/custom.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\GUI\custom\custom.c > CMakeFiles\Tool.elf.dir\GUI\custom\custom.c.i
+
+CMakeFiles/Tool.elf.dir/GUI/custom/custom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/GUI/custom/custom.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\GUI\custom\custom.c -o CMakeFiles\Tool.elf.dir\GUI\custom\custom.c.s
+
+CMakeFiles/Tool.elf.dir/GUI/generated/events_init.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/GUI/generated/events_init.c.obj: D:/STM32/Project/Tool/GUI/generated/events_init.c
+CMakeFiles/Tool.elf.dir/GUI/generated/events_init.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/Tool.elf.dir/GUI/generated/events_init.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/GUI/generated/events_init.c.obj -MF CMakeFiles\Tool.elf.dir\GUI\generated\events_init.c.obj.d -o CMakeFiles\Tool.elf.dir\GUI\generated\events_init.c.obj -c D:\STM32\Project\Tool\GUI\generated\events_init.c
+
+CMakeFiles/Tool.elf.dir/GUI/generated/events_init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/GUI/generated/events_init.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\GUI\generated\events_init.c > CMakeFiles\Tool.elf.dir\GUI\generated\events_init.c.i
+
+CMakeFiles/Tool.elf.dir/GUI/generated/events_init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/GUI/generated/events_init.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\GUI\generated\events_init.c -o CMakeFiles\Tool.elf.dir\GUI\generated\events_init.c.s
+
+CMakeFiles/Tool.elf.dir/GUI/generated/gui_guider.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/GUI/generated/gui_guider.c.obj: D:/STM32/Project/Tool/GUI/generated/gui_guider.c
+CMakeFiles/Tool.elf.dir/GUI/generated/gui_guider.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/Tool.elf.dir/GUI/generated/gui_guider.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/GUI/generated/gui_guider.c.obj -MF CMakeFiles\Tool.elf.dir\GUI\generated\gui_guider.c.obj.d -o CMakeFiles\Tool.elf.dir\GUI\generated\gui_guider.c.obj -c D:\STM32\Project\Tool\GUI\generated\gui_guider.c
+
+CMakeFiles/Tool.elf.dir/GUI/generated/gui_guider.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/GUI/generated/gui_guider.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\GUI\generated\gui_guider.c > CMakeFiles\Tool.elf.dir\GUI\generated\gui_guider.c.i
+
+CMakeFiles/Tool.elf.dir/GUI/generated/gui_guider.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/GUI/generated/gui_guider.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\GUI\generated\gui_guider.c -o CMakeFiles\Tool.elf.dir\GUI\generated\gui_guider.c.s
+
+CMakeFiles/Tool.elf.dir/GUI/generated/guider_fonts/lv_font_arial_14.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/GUI/generated/guider_fonts/lv_font_arial_14.c.obj: D:/STM32/Project/Tool/GUI/generated/guider_fonts/lv_font_arial_14.c
+CMakeFiles/Tool.elf.dir/GUI/generated/guider_fonts/lv_font_arial_14.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/Tool.elf.dir/GUI/generated/guider_fonts/lv_font_arial_14.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/GUI/generated/guider_fonts/lv_font_arial_14.c.obj -MF CMakeFiles\Tool.elf.dir\GUI\generated\guider_fonts\lv_font_arial_14.c.obj.d -o CMakeFiles\Tool.elf.dir\GUI\generated\guider_fonts\lv_font_arial_14.c.obj -c D:\STM32\Project\Tool\GUI\generated\guider_fonts\lv_font_arial_14.c
+
+CMakeFiles/Tool.elf.dir/GUI/generated/guider_fonts/lv_font_arial_14.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/GUI/generated/guider_fonts/lv_font_arial_14.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\GUI\generated\guider_fonts\lv_font_arial_14.c > CMakeFiles\Tool.elf.dir\GUI\generated\guider_fonts\lv_font_arial_14.c.i
+
+CMakeFiles/Tool.elf.dir/GUI/generated/guider_fonts/lv_font_arial_14.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/GUI/generated/guider_fonts/lv_font_arial_14.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\GUI\generated\guider_fonts\lv_font_arial_14.c -o CMakeFiles\Tool.elf.dir\GUI\generated\guider_fonts\lv_font_arial_14.c.s
+
+CMakeFiles/Tool.elf.dir/GUI/generated/guider_fonts/lv_font_arial_48.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/GUI/generated/guider_fonts/lv_font_arial_48.c.obj: D:/STM32/Project/Tool/GUI/generated/guider_fonts/lv_font_arial_48.c
+CMakeFiles/Tool.elf.dir/GUI/generated/guider_fonts/lv_font_arial_48.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/Tool.elf.dir/GUI/generated/guider_fonts/lv_font_arial_48.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/GUI/generated/guider_fonts/lv_font_arial_48.c.obj -MF CMakeFiles\Tool.elf.dir\GUI\generated\guider_fonts\lv_font_arial_48.c.obj.d -o CMakeFiles\Tool.elf.dir\GUI\generated\guider_fonts\lv_font_arial_48.c.obj -c D:\STM32\Project\Tool\GUI\generated\guider_fonts\lv_font_arial_48.c
+
+CMakeFiles/Tool.elf.dir/GUI/generated/guider_fonts/lv_font_arial_48.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/GUI/generated/guider_fonts/lv_font_arial_48.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\GUI\generated\guider_fonts\lv_font_arial_48.c > CMakeFiles\Tool.elf.dir\GUI\generated\guider_fonts\lv_font_arial_48.c.i
+
+CMakeFiles/Tool.elf.dir/GUI/generated/guider_fonts/lv_font_arial_48.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/GUI/generated/guider_fonts/lv_font_arial_48.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\GUI\generated\guider_fonts\lv_font_arial_48.c -o CMakeFiles\Tool.elf.dir\GUI\generated\guider_fonts\lv_font_arial_48.c.s
+
+CMakeFiles/Tool.elf.dir/GUI/generated/guider_fonts/lv_font_simsun_12.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/GUI/generated/guider_fonts/lv_font_simsun_12.c.obj: D:/STM32/Project/Tool/GUI/generated/guider_fonts/lv_font_simsun_12.c
+CMakeFiles/Tool.elf.dir/GUI/generated/guider_fonts/lv_font_simsun_12.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/Tool.elf.dir/GUI/generated/guider_fonts/lv_font_simsun_12.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/GUI/generated/guider_fonts/lv_font_simsun_12.c.obj -MF CMakeFiles\Tool.elf.dir\GUI\generated\guider_fonts\lv_font_simsun_12.c.obj.d -o CMakeFiles\Tool.elf.dir\GUI\generated\guider_fonts\lv_font_simsun_12.c.obj -c D:\STM32\Project\Tool\GUI\generated\guider_fonts\lv_font_simsun_12.c
+
+CMakeFiles/Tool.elf.dir/GUI/generated/guider_fonts/lv_font_simsun_12.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/GUI/generated/guider_fonts/lv_font_simsun_12.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\GUI\generated\guider_fonts\lv_font_simsun_12.c > CMakeFiles\Tool.elf.dir\GUI\generated\guider_fonts\lv_font_simsun_12.c.i
+
+CMakeFiles/Tool.elf.dir/GUI/generated/guider_fonts/lv_font_simsun_12.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/GUI/generated/guider_fonts/lv_font_simsun_12.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\GUI\generated\guider_fonts\lv_font_simsun_12.c -o CMakeFiles\Tool.elf.dir\GUI\generated\guider_fonts\lv_font_simsun_12.c.s
+
+CMakeFiles/Tool.elf.dir/GUI/generated/images/_scan_example_alpha_224x204.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/GUI/generated/images/_scan_example_alpha_224x204.c.obj: D:/STM32/Project/Tool/GUI/generated/images/_scan_example_alpha_224x204.c
+CMakeFiles/Tool.elf.dir/GUI/generated/images/_scan_example_alpha_224x204.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/Tool.elf.dir/GUI/generated/images/_scan_example_alpha_224x204.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/GUI/generated/images/_scan_example_alpha_224x204.c.obj -MF CMakeFiles\Tool.elf.dir\GUI\generated\images\_scan_example_alpha_224x204.c.obj.d -o CMakeFiles\Tool.elf.dir\GUI\generated\images\_scan_example_alpha_224x204.c.obj -c D:\STM32\Project\Tool\GUI\generated\images\_scan_example_alpha_224x204.c
+
+CMakeFiles/Tool.elf.dir/GUI/generated/images/_scan_example_alpha_224x204.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/GUI/generated/images/_scan_example_alpha_224x204.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\GUI\generated\images\_scan_example_alpha_224x204.c > CMakeFiles\Tool.elf.dir\GUI\generated\images\_scan_example_alpha_224x204.c.i
+
+CMakeFiles/Tool.elf.dir/GUI/generated/images/_scan_example_alpha_224x204.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/GUI/generated/images/_scan_example_alpha_224x204.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\GUI\generated\images\_scan_example_alpha_224x204.c -o CMakeFiles\Tool.elf.dir\GUI\generated\images\_scan_example_alpha_224x204.c.s
+
+CMakeFiles/Tool.elf.dir/GUI/generated/setup_scr_screen.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/GUI/generated/setup_scr_screen.c.obj: D:/STM32/Project/Tool/GUI/generated/setup_scr_screen.c
+CMakeFiles/Tool.elf.dir/GUI/generated/setup_scr_screen.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/Tool.elf.dir/GUI/generated/setup_scr_screen.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/GUI/generated/setup_scr_screen.c.obj -MF CMakeFiles\Tool.elf.dir\GUI\generated\setup_scr_screen.c.obj.d -o CMakeFiles\Tool.elf.dir\GUI\generated\setup_scr_screen.c.obj -c D:\STM32\Project\Tool\GUI\generated\setup_scr_screen.c
+
+CMakeFiles/Tool.elf.dir/GUI/generated/setup_scr_screen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/GUI/generated/setup_scr_screen.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\GUI\generated\setup_scr_screen.c > CMakeFiles\Tool.elf.dir\GUI\generated\setup_scr_screen.c.i
+
+CMakeFiles/Tool.elf.dir/GUI/generated/setup_scr_screen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/GUI/generated/setup_scr_screen.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\GUI\generated\setup_scr_screen.c -o CMakeFiles\Tool.elf.dir\GUI\generated\setup_scr_screen.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/porting/lv_port_disp.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/porting/lv_port_disp.c.obj: D:/STM32/Project/Tool/LVGL/porting/lv_port_disp.c
+CMakeFiles/Tool.elf.dir/LVGL/porting/lv_port_disp.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/Tool.elf.dir/LVGL/porting/lv_port_disp.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/porting/lv_port_disp.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\porting\lv_port_disp.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\porting\lv_port_disp.c.obj -c D:\STM32\Project\Tool\LVGL\porting\lv_port_disp.c
+
+CMakeFiles/Tool.elf.dir/LVGL/porting/lv_port_disp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/porting/lv_port_disp.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\porting\lv_port_disp.c > CMakeFiles\Tool.elf.dir\LVGL\porting\lv_port_disp.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/porting/lv_port_disp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/porting/lv_port_disp.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\porting\lv_port_disp.c -o CMakeFiles\Tool.elf.dir\LVGL\porting\lv_port_disp.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/porting/lv_port_fs.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/porting/lv_port_fs.c.obj: D:/STM32/Project/Tool/LVGL/porting/lv_port_fs.c
+CMakeFiles/Tool.elf.dir/LVGL/porting/lv_port_fs.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/Tool.elf.dir/LVGL/porting/lv_port_fs.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/porting/lv_port_fs.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\porting\lv_port_fs.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\porting\lv_port_fs.c.obj -c D:\STM32\Project\Tool\LVGL\porting\lv_port_fs.c
+
+CMakeFiles/Tool.elf.dir/LVGL/porting/lv_port_fs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/porting/lv_port_fs.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\porting\lv_port_fs.c > CMakeFiles\Tool.elf.dir\LVGL\porting\lv_port_fs.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/porting/lv_port_fs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/porting/lv_port_fs.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\porting\lv_port_fs.c -o CMakeFiles\Tool.elf.dir\LVGL\porting\lv_port_fs.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/porting/lv_port_indev.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/porting/lv_port_indev.c.obj: D:/STM32/Project/Tool/LVGL/porting/lv_port_indev.c
+CMakeFiles/Tool.elf.dir/LVGL/porting/lv_port_indev.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/Tool.elf.dir/LVGL/porting/lv_port_indev.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/porting/lv_port_indev.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\porting\lv_port_indev.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\porting\lv_port_indev.c.obj -c D:\STM32\Project\Tool\LVGL\porting\lv_port_indev.c
+
+CMakeFiles/Tool.elf.dir/LVGL/porting/lv_port_indev.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/porting/lv_port_indev.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\porting\lv_port_indev.c > CMakeFiles\Tool.elf.dir\LVGL\porting\lv_port_indev.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/porting/lv_port_indev.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/porting/lv_port_indev.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\porting\lv_port_indev.c -o CMakeFiles\Tool.elf.dir\LVGL\porting\lv_port_indev.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_disp.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_disp.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_core/lv_disp.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_disp.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_disp.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_disp.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_core\lv_disp.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_core\lv_disp.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_core\lv_disp.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_disp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_disp.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_core\lv_disp.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_core\lv_disp.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_disp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_disp.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_core\lv_disp.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_core\lv_disp.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_group.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_group.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_core/lv_group.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_group.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_group.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_group.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_core\lv_group.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_core\lv_group.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_core\lv_group.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_group.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_group.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_core\lv_group.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_core\lv_group.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_group.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_group.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_core\lv_group.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_core\lv_group.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_indev.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_indev.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_core/lv_indev.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_indev.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_indev.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_indev.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_core\lv_indev.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_core\lv_indev.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_core\lv_indev.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_indev.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_indev.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_core\lv_indev.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_core\lv_indev.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_indev.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_indev.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_core\lv_indev.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_core\lv_indev.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_obj.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_obj.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_core/lv_obj.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_obj.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_obj.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_obj.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_core\lv_obj.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_core\lv_obj.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_core\lv_obj.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_obj.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_obj.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_core\lv_obj.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_core\lv_obj.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_obj.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_obj.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_core\lv_obj.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_core\lv_obj.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_refr.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_refr.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_core/lv_refr.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_refr.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_refr.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_refr.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_core\lv_refr.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_core\lv_refr.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_core\lv_refr.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_refr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_refr.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_core\lv_refr.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_core\lv_refr.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_refr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_refr.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_core\lv_refr.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_core\lv_refr.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_style.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_style.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_core/lv_style.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_style.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_style.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_style.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_core\lv_style.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_core\lv_style.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_core\lv_style.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_style.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_style.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_core\lv_style.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_core\lv_style.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_style.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_style.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_core\lv_style.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_core\lv_style.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_arc.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_arc.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_draw_arc.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_arc.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_arc.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_arc.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_draw_arc.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_draw_arc.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_draw\lv_draw_arc.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_arc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_arc.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_draw\lv_draw_arc.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_draw_arc.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_arc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_arc.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_draw\lv_draw_arc.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_draw_arc.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_blend.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_blend.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_draw_blend.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_blend.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_blend.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_blend.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_draw_blend.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_draw_blend.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_draw\lv_draw_blend.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_blend.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_blend.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_draw\lv_draw_blend.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_draw_blend.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_blend.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_blend.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_draw\lv_draw_blend.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_draw_blend.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_img.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_img.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_draw_img.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_img.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_img.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_img.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_draw_img.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_draw_img.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_draw\lv_draw_img.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_img.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_img.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_draw\lv_draw_img.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_draw_img.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_img.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_img.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_draw\lv_draw_img.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_draw_img.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_label.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_label.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_draw_label.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_label.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_label.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_label.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_draw_label.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_draw_label.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_draw\lv_draw_label.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_label.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_label.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_draw\lv_draw_label.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_draw_label.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_label.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_label.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_draw\lv_draw_label.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_draw_label.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_line.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_line.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_draw_line.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_line.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_line.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_line.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_draw_line.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_draw_line.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_draw\lv_draw_line.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_line.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_line.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_draw\lv_draw_line.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_draw_line.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_line.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_line.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_draw\lv_draw_line.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_draw_line.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_mask.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_mask.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_draw_mask.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_mask.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_mask.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_mask.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_draw_mask.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_draw_mask.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_draw\lv_draw_mask.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_mask.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_mask.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_draw\lv_draw_mask.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_draw_mask.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_mask.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_mask.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_draw\lv_draw_mask.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_draw_mask.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_rect.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_rect.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_draw_rect.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_rect.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_rect.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_rect.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_draw_rect.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_draw_rect.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_draw\lv_draw_rect.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_rect.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_rect.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_draw\lv_draw_rect.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_draw_rect.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_rect.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_rect.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_draw\lv_draw_rect.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_draw_rect.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_triangle.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_triangle.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_draw_triangle.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_triangle.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_triangle.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_triangle.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_draw_triangle.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_draw_triangle.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_draw\lv_draw_triangle.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_triangle.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_triangle.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_draw\lv_draw_triangle.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_draw_triangle.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_triangle.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_triangle.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_draw\lv_draw_triangle.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_draw_triangle.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_img_buf.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_img_buf.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_img_buf.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_img_buf.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_img_buf.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_img_buf.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_img_buf.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_img_buf.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_draw\lv_img_buf.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_img_buf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_img_buf.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_draw\lv_img_buf.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_img_buf.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_img_buf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_img_buf.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_draw\lv_img_buf.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_img_buf.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_img_cache.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_img_cache.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_img_cache.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_img_cache.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_img_cache.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_img_cache.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_img_cache.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_img_cache.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_draw\lv_img_cache.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_img_cache.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_img_cache.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_draw\lv_img_cache.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_img_cache.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_img_cache.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_img_cache.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_draw\lv_img_cache.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_img_cache.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_img_decoder.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_img_decoder.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_img_decoder.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_img_decoder.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_img_decoder.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_img_decoder.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_img_decoder.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_img_decoder.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_draw\lv_img_decoder.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_img_decoder.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_img_decoder.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_draw\lv_img_decoder.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_img_decoder.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_img_decoder.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_img_decoder.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_draw\lv_img_decoder.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_draw\lv_img_decoder.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_dejavu_16_persian_hebrew.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_dejavu_16_persian_hebrew.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_dejavu_16_persian_hebrew.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_dejavu_16_persian_hebrew.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_dejavu_16_persian_hebrew.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_dejavu_16_persian_hebrew.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_dejavu_16_persian_hebrew.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_dejavu_16_persian_hebrew.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_dejavu_16_persian_hebrew.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_dejavu_16_persian_hebrew.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_dejavu_16_persian_hebrew.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_dejavu_16_persian_hebrew.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_dejavu_16_persian_hebrew.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_dejavu_16_persian_hebrew.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_dejavu_16_persian_hebrew.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_dejavu_16_persian_hebrew.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_dejavu_16_persian_hebrew.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_fmt_txt.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_fmt_txt.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_fmt_txt.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_fmt_txt.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_fmt_txt.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_fmt_txt.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_fmt_txt.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_fmt_txt.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_fmt_txt.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_fmt_txt.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_fmt_txt.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_fmt_txt.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_fmt_txt.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_fmt_txt.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_fmt_txt.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_fmt_txt.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_fmt_txt.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_loader.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_loader.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_loader.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_loader.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_loader.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_loader.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_loader.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_loader.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_loader.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_loader.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_loader.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_loader.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_loader.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_loader.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_loader.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_loader.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_loader.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_10.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_10.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_10.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_10.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_10.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_10.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_10.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_10.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_10.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_10.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_10.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_10.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_10.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_10.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_10.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_10.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_10.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_12.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_12.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_12.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_12.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_12.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_12.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_12.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_12.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_12.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_12.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_12.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_12.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_12.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_12.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_12.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_12.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_12.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_12_subpx.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_12_subpx.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_12_subpx.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_12_subpx.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_12_subpx.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_12_subpx.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_12_subpx.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_12_subpx.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_12_subpx.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_12_subpx.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_12_subpx.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_12_subpx.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_12_subpx.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_12_subpx.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_12_subpx.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_12_subpx.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_12_subpx.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_14.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_14.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_14.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_14.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_14.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_14.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_14.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_14.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_14.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_14.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_14.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_14.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_14.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_14.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_14.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_14.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_14.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_16.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_16.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_16.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_16.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_16.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_16.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_16.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_16.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_16.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_16.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_16.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_16.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_16.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_16.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_16.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_16.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_16.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_18.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_18.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_18.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_18.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_18.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_18.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_18.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_18.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_18.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_18.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_18.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_18.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_18.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_18.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_18.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_18.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_18.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_20.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_20.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_20.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_20.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_20.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_20.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_20.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_20.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_20.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_20.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_20.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_20.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_20.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_20.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_20.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_20.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_20.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_22.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_22.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_22.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_22.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_22.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_22.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_22.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_22.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_22.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_22.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_22.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_22.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_22.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_22.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_22.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_22.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_22.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_24.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_24.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_24.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_24.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_24.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_24.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_24.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_24.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_24.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_24.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_24.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_24.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_24.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_24.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_24.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_24.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_24.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_26.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_26.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_26.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_26.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_26.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_26.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_26.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_26.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_26.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_26.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_26.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_26.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_26.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_26.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_26.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_26.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_26.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_28.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_28.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_28.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_28.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_28.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_28.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_28.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_28.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_28.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_28.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_28.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_28.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_28.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_28.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_28.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_28.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_28.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_28_compressed.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_28_compressed.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_28_compressed.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_28_compressed.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_28_compressed.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_28_compressed.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_28_compressed.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_28_compressed.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_28_compressed.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_28_compressed.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_28_compressed.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_28_compressed.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_28_compressed.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_28_compressed.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_28_compressed.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_28_compressed.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_28_compressed.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_30.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_30.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_30.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_30.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_30.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_30.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_30.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_30.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_30.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_30.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_30.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_30.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_30.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_30.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_30.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_30.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_30.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_32.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_32.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_32.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_32.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_32.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_32.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_32.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_32.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_32.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_32.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_32.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_32.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_32.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_32.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_32.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_32.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_32.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_34.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_34.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_34.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_34.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_34.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_34.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_34.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_34.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_34.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_34.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_34.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_34.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_34.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_34.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_34.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_34.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_34.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_36.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_36.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_36.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_36.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_36.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_36.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_36.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_36.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_36.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_36.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_36.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_36.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_36.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_36.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_36.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_36.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_36.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_38.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_38.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_38.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_38.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_38.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_38.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_38.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_38.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_38.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_38.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_38.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_38.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_38.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_38.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_38.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_38.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_38.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_40.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_40.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_40.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_40.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_40.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_40.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_40.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_40.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_40.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_40.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_40.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_40.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_40.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_40.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_40.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_40.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_40.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_42.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_42.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_42.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_42.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_42.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_42.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_42.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_42.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_42.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_42.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_42.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_42.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_42.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_42.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_42.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_42.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_42.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_44.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_44.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_44.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_44.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_44.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_44.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_44.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_44.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_44.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_44.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_44.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_44.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_44.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_44.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_44.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_44.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_44.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_46.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_46.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_46.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_46.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_46.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_46.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_46.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_46.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_46.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_46.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_46.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_46.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_46.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_46.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_46.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_46.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_46.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_48.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_48.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_48.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_48.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_48.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_48.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_48.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_48.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_48.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_48.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_48.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_48.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_48.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_48.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_48.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_48.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_48.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_8.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_8.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_8.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_8.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_8.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_8.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_8.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_8.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_8.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_8.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_8.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_8.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_8.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_8.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_8.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_montserrat_8.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_montserrat_8.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_simsun_16_cjk.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_simsun_16_cjk.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_simsun_16_cjk.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_simsun_16_cjk.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_simsun_16_cjk.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_simsun_16_cjk.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_simsun_16_cjk.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_simsun_16_cjk.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_simsun_16_cjk.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_simsun_16_cjk.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_simsun_16_cjk.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_simsun_16_cjk.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_simsun_16_cjk.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_simsun_16_cjk.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_simsun_16_cjk.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_simsun_16_cjk.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_simsun_16_cjk.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_unscii_16.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_unscii_16.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_unscii_16.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_unscii_16.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_unscii_16.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_unscii_16.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_unscii_16.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_unscii_16.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_unscii_16.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_unscii_16.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_unscii_16.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_unscii_16.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_unscii_16.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_unscii_16.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_unscii_16.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_unscii_16.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_unscii_16.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_unscii_8.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_unscii_8.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_unscii_8.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_unscii_8.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_unscii_8.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_unscii_8.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_unscii_8.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_unscii_8.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_unscii_8.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_unscii_8.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_unscii_8.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_unscii_8.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_unscii_8.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_unscii_8.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_unscii_8.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_font\lv_font_unscii_8.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_font\lv_font_unscii_8.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_nxp_pxp.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_nxp_pxp.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_gpu/lv_gpu_nxp_pxp.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_nxp_pxp.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_nxp_pxp.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_nxp_pxp.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_gpu\lv_gpu_nxp_pxp.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_gpu\lv_gpu_nxp_pxp.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_gpu\lv_gpu_nxp_pxp.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_nxp_pxp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_nxp_pxp.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_gpu\lv_gpu_nxp_pxp.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_gpu\lv_gpu_nxp_pxp.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_nxp_pxp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_nxp_pxp.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_gpu\lv_gpu_nxp_pxp.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_gpu\lv_gpu_nxp_pxp.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_nxp_pxp_osa.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_nxp_pxp_osa.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_gpu/lv_gpu_nxp_pxp_osa.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_nxp_pxp_osa.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_nxp_pxp_osa.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_nxp_pxp_osa.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_gpu\lv_gpu_nxp_pxp_osa.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_gpu\lv_gpu_nxp_pxp_osa.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_gpu\lv_gpu_nxp_pxp_osa.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_nxp_pxp_osa.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_nxp_pxp_osa.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_gpu\lv_gpu_nxp_pxp_osa.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_gpu\lv_gpu_nxp_pxp_osa.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_nxp_pxp_osa.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_nxp_pxp_osa.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_gpu\lv_gpu_nxp_pxp_osa.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_gpu\lv_gpu_nxp_pxp_osa.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_nxp_vglite.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_nxp_vglite.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_gpu/lv_gpu_nxp_vglite.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_nxp_vglite.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_nxp_vglite.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_nxp_vglite.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_gpu\lv_gpu_nxp_vglite.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_gpu\lv_gpu_nxp_vglite.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_gpu\lv_gpu_nxp_vglite.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_nxp_vglite.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_nxp_vglite.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_gpu\lv_gpu_nxp_vglite.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_gpu\lv_gpu_nxp_vglite.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_nxp_vglite.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_nxp_vglite.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_gpu\lv_gpu_nxp_vglite.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_gpu\lv_gpu_nxp_vglite.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_stm32_dma2d.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_stm32_dma2d.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_gpu/lv_gpu_stm32_dma2d.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_stm32_dma2d.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_stm32_dma2d.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_stm32_dma2d.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_gpu\lv_gpu_stm32_dma2d.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_gpu\lv_gpu_stm32_dma2d.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_gpu\lv_gpu_stm32_dma2d.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_stm32_dma2d.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_stm32_dma2d.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_gpu\lv_gpu_stm32_dma2d.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_gpu\lv_gpu_stm32_dma2d.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_stm32_dma2d.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_stm32_dma2d.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_gpu\lv_gpu_stm32_dma2d.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_gpu\lv_gpu_stm32_dma2d.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_hal/lv_hal_disp.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_hal/lv_hal_disp.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_hal/lv_hal_disp.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_hal/lv_hal_disp.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_hal/lv_hal_disp.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_hal/lv_hal_disp.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_hal\lv_hal_disp.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_hal\lv_hal_disp.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_hal\lv_hal_disp.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_hal/lv_hal_disp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_hal/lv_hal_disp.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_hal\lv_hal_disp.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_hal\lv_hal_disp.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_hal/lv_hal_disp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_hal/lv_hal_disp.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_hal\lv_hal_disp.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_hal\lv_hal_disp.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_hal/lv_hal_indev.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_hal/lv_hal_indev.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_hal/lv_hal_indev.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_hal/lv_hal_indev.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_hal/lv_hal_indev.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_hal/lv_hal_indev.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_hal\lv_hal_indev.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_hal\lv_hal_indev.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_hal\lv_hal_indev.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_hal/lv_hal_indev.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_hal/lv_hal_indev.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_hal\lv_hal_indev.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_hal\lv_hal_indev.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_hal/lv_hal_indev.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_hal/lv_hal_indev.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_hal\lv_hal_indev.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_hal\lv_hal_indev.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_hal/lv_hal_tick.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_hal/lv_hal_tick.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_hal/lv_hal_tick.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_hal/lv_hal_tick.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_hal/lv_hal_tick.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_hal/lv_hal_tick.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_hal\lv_hal_tick.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_hal\lv_hal_tick.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_hal\lv_hal_tick.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_hal/lv_hal_tick.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_hal/lv_hal_tick.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_hal\lv_hal_tick.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_hal\lv_hal_tick.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_hal/lv_hal_tick.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_hal/lv_hal_tick.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_hal\lv_hal_tick.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_hal\lv_hal_tick.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_anim.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_anim.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_anim.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_anim.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_anim.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_anim.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_anim.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_anim.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_anim.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_anim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_anim.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_anim.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_anim.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_anim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_anim.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_anim.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_anim.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_area.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_area.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_area.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_area.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_area.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_area.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_area.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_area.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_area.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_area.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_area.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_area.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_area.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_area.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_area.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_area.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_area.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_async.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_async.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_async.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_async.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_async.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_async.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_async.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_async.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_async.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_async.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_async.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_async.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_async.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_async.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_async.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_async.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_async.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_bidi.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_bidi.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_bidi.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_bidi.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_bidi.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_bidi.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_bidi.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_bidi.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_bidi.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_bidi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_bidi.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_bidi.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_bidi.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_bidi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_bidi.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_bidi.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_bidi.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_color.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_color.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_color.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_color.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_color.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_color.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_color.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_color.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_color.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_color.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_color.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_color.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_color.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_color.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_color.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_color.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_color.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_debug.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_debug.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_debug.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_debug.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_debug.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_debug.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_debug.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_debug.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_debug.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_debug.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_debug.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_debug.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_debug.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_debug.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_debug.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_debug.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_debug.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_fs.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_fs.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_fs.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_fs.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_fs.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_fs.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_fs.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_fs.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_fs.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_fs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_fs.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_fs.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_fs.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_fs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_fs.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_fs.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_fs.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_gc.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_gc.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_gc.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_gc.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_gc.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_gc.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_gc.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_gc.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_gc.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_gc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_gc.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_gc.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_gc.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_gc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_gc.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_gc.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_gc.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_ll.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_ll.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_ll.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_ll.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_ll.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_ll.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_ll.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_ll.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_ll.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_ll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_ll.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_ll.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_ll.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_ll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_ll.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_ll.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_ll.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_log.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_log.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_log.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_log.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_log.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_log.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_log.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_log.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_log.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_log.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_log.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_log.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_log.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_log.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_log.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_log.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_log.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_math.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_math.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_math.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_math.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_math.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_math.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_math.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_math.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_math.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_math.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_math.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_math.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_math.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_math.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_math.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_math.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_math.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_mem.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_mem.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_mem.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_mem.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_mem.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_mem.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_mem.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_mem.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_mem.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_mem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_mem.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_mem.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_mem.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_mem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_mem.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_mem.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_mem.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_printf.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_printf.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_printf.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_printf.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_printf.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_printf.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_printf.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_printf.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_printf.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_printf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_printf.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_printf.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_printf.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_printf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_printf.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_printf.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_printf.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_task.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_task.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_task.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_task.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_task.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_task.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_task.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_task.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_task.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_task.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_task.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_task.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_task.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_task.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_task.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_task.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_task.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_templ.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_templ.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_templ.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_templ.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_templ.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_templ.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_templ.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_templ.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_templ.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_templ.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_templ.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_templ.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_templ.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_templ.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_templ.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_templ.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_templ.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_txt.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_txt.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_txt.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_txt.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_txt.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_txt.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_txt.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_txt.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_txt.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_txt.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_txt.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_txt.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_txt.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_txt.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_txt.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_txt.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_txt.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_txt_ap.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_txt_ap.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_txt_ap.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_txt_ap.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_txt_ap.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_txt_ap.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_txt_ap.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_txt_ap.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_txt_ap.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_txt_ap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_txt_ap.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_txt_ap.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_txt_ap.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_txt_ap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_txt_ap.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_txt_ap.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_txt_ap.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_utils.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_utils.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_utils.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_utils.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_utils.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_utils.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_utils.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_utils.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_utils.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_utils.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_utils.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_utils.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_utils.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_misc\lv_utils.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_misc\lv_utils.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_themes/lv_theme.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_themes\lv_theme.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_themes\lv_theme.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_themes\lv_theme.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_themes\lv_theme.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_themes\lv_theme.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_themes\lv_theme.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_themes\lv_theme.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_empty.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_empty.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_themes/lv_theme_empty.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_empty.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_empty.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_empty.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_themes\lv_theme_empty.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_themes\lv_theme_empty.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_themes\lv_theme_empty.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_empty.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_empty.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_themes\lv_theme_empty.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_themes\lv_theme_empty.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_empty.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_empty.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_themes\lv_theme_empty.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_themes\lv_theme_empty.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_material.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_material.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_themes/lv_theme_material.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_material.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_material.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_material.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_themes\lv_theme_material.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_themes\lv_theme_material.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_themes\lv_theme_material.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_material.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_material.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_themes\lv_theme_material.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_themes\lv_theme_material.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_material.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_material.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_themes\lv_theme_material.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_themes\lv_theme_material.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_mono.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_mono.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_themes/lv_theme_mono.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_mono.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_mono.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_mono.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_themes\lv_theme_mono.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_themes\lv_theme_mono.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_themes\lv_theme_mono.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_mono.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_mono.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_themes\lv_theme_mono.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_themes\lv_theme_mono.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_mono.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_mono.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_themes\lv_theme_mono.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_themes\lv_theme_mono.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_template.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_template.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_themes/lv_theme_template.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_template.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_template.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_template.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_themes\lv_theme_template.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_themes\lv_theme_template.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_themes\lv_theme_template.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_template.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_template.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_themes\lv_theme_template.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_themes\lv_theme_template.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_template.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_template.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_themes\lv_theme_template.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_themes\lv_theme_template.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_arc.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_arc.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_arc.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_arc.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_arc.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_arc.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_arc.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_arc.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_arc.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_arc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_arc.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_arc.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_arc.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_arc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_arc.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_arc.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_arc.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_bar.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_bar.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_bar.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_bar.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_bar.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_bar.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_bar.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_bar.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_bar.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_bar.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_bar.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_bar.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_bar.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_bar.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_bar.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_bar.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_bar.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_btn.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_btn.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_btn.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_btn.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_btn.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_btn.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_btn.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_btn.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_btn.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_btn.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_btn.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_btn.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_btn.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_btn.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_btn.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_btn.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_btn.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_btnmatrix.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_btnmatrix.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_btnmatrix.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_btnmatrix.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_btnmatrix.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_btnmatrix.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_btnmatrix.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_btnmatrix.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_btnmatrix.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_btnmatrix.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_btnmatrix.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_btnmatrix.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_btnmatrix.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_btnmatrix.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_btnmatrix.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_btnmatrix.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_btnmatrix.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_calendar.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_calendar.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_calendar.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_calendar.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_calendar.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_calendar.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_calendar.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_calendar.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_calendar.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_calendar.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_calendar.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_calendar.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_calendar.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_calendar.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_calendar.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_calendar.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_calendar.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_canvas.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_canvas.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_canvas.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_canvas.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_canvas.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_canvas.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_canvas.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_canvas.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_canvas.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_canvas.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_canvas.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_canvas.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_canvas.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_canvas.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_canvas.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_canvas.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_canvas.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_chart.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_chart.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_chart.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_chart.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_chart.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_chart.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_chart.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_chart.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_chart.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_chart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_chart.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_chart.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_chart.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_chart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_chart.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_chart.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_chart.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_checkbox.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_checkbox.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_checkbox.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_checkbox.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_checkbox.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_checkbox.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_checkbox.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_checkbox.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_checkbox.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_checkbox.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_checkbox.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_checkbox.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_checkbox.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_checkbox.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_checkbox.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_checkbox.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_checkbox.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_cont.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_cont.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_cont.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_cont.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_cont.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_cont.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_cont.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_cont.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_cont.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_cont.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_cont.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_cont.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_cont.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_cont.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_cont.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_cont.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_cont.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_cpicker.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_cpicker.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_cpicker.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_cpicker.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_cpicker.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_cpicker.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_cpicker.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_cpicker.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_cpicker.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_cpicker.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_cpicker.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_cpicker.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_cpicker.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_cpicker.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_cpicker.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_cpicker.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_cpicker.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_dropdown.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_dropdown.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_dropdown.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_dropdown.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_dropdown.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_dropdown.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_dropdown.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_dropdown.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_dropdown.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_dropdown.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_dropdown.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_dropdown.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_dropdown.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_dropdown.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_dropdown.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_dropdown.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_dropdown.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_gauge.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_gauge.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_gauge.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_gauge.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_gauge.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_gauge.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_gauge.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_gauge.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_gauge.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_gauge.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_gauge.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_gauge.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_gauge.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_gauge.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_gauge.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_gauge.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_gauge.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_img.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_img.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_img.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_img.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_img.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_img.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_img.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_img.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_img.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_img.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_img.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_img.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_img.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_img.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_img.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_img.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_img.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_imgbtn.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_imgbtn.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_imgbtn.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_imgbtn.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_imgbtn.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_imgbtn.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_imgbtn.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_imgbtn.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_imgbtn.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_imgbtn.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_imgbtn.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_imgbtn.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_imgbtn.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_imgbtn.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_imgbtn.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_imgbtn.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_imgbtn.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_keyboard.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_keyboard.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_keyboard.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_keyboard.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_keyboard.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_keyboard.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_keyboard.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_keyboard.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_keyboard.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_keyboard.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_keyboard.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_keyboard.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_keyboard.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_keyboard.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_keyboard.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_keyboard.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_keyboard.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_label.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_label.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_label.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_label.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_label.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_label.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_label.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_label.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_label.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_label.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_label.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_label.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_label.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_label.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_label.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_label.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_label.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_led.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_led.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_led.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_led.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_led.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_led.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_led.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_led.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_led.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_led.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_led.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_led.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_led.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_led.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_led.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_led.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_led.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_line.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_line.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_line.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_line.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_line.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_line.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_line.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_line.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_line.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_line.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_line.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_line.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_line.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_line.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_line.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_line.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_line.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_linemeter.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_linemeter.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_linemeter.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_linemeter.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_linemeter.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_linemeter.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_linemeter.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_linemeter.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_linemeter.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_linemeter.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_linemeter.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_linemeter.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_linemeter.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_linemeter.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_linemeter.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_linemeter.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_linemeter.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_list.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_list.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_list.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_list.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_list.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_list.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_list.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_list.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_list.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_list.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_list.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_list.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_list.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_list.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_list.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_msgbox.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_msgbox.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_msgbox.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_msgbox.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_msgbox.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_msgbox.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_msgbox.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_msgbox.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_msgbox.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_msgbox.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_msgbox.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_msgbox.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_msgbox.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_msgbox.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_msgbox.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_msgbox.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_msgbox.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_objmask.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_objmask.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_objmask.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_objmask.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_objmask.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_objmask.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_objmask.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_objmask.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_objmask.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_objmask.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_objmask.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_objmask.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_objmask.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_objmask.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_objmask.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_objmask.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_objmask.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_objx_templ.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_objx_templ.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_objx_templ.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_objx_templ.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_objx_templ.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_objx_templ.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_objx_templ.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_objx_templ.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_objx_templ.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_objx_templ.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_objx_templ.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_objx_templ.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_objx_templ.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_objx_templ.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_objx_templ.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_objx_templ.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_objx_templ.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_page.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_page.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_page.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_page.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_page.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_page.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_page.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_page.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_page.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_page.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_page.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_page.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_page.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_page.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_page.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_page.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_page.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_roller.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_roller.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_roller.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_roller.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_roller.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_roller.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_roller.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_roller.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_roller.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_roller.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_roller.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_roller.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_roller.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_roller.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_roller.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_roller.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_roller.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_slider.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_slider.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_slider.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_slider.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_slider.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_slider.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_slider.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_slider.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_slider.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_slider.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_slider.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_slider.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_slider.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_slider.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_slider.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_slider.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_slider.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_spinbox.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_spinbox.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_spinbox.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_spinbox.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_spinbox.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_spinbox.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_spinbox.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_spinbox.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_spinbox.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_spinbox.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_spinbox.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_spinbox.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_spinbox.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_spinbox.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_spinbox.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_spinbox.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_spinbox.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_spinner.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_spinner.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_spinner.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_spinner.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_spinner.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_spinner.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_spinner.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_spinner.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_spinner.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_spinner.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_spinner.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_spinner.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_spinner.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_spinner.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_spinner.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_spinner.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_spinner.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_switch.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_switch.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_switch.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_switch.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_switch.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_switch.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_switch.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_switch.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_switch.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_switch.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_switch.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_switch.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_switch.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_switch.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_switch.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_switch.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_switch.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_table.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_table.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_table.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_table.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_table.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_table.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_table.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_table.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_table.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_table.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_table.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_table.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_table.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_table.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_table.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_table.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_table.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_tabview.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_tabview.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_tabview.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_tabview.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_tabview.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_tabview.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_tabview.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_tabview.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_tabview.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_tabview.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_tabview.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_tabview.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_tabview.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_tabview.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_tabview.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_tabview.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_tabview.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_textarea.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_textarea.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_textarea.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_textarea.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_textarea.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_textarea.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_textarea.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_textarea.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_textarea.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_textarea.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_textarea.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_textarea.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_textarea.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_textarea.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_textarea.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_textarea.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_textarea.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_tileview.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_tileview.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_tileview.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_tileview.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_tileview.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_tileview.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_tileview.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_tileview.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_tileview.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_tileview.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_tileview.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_tileview.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_tileview.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_tileview.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_tileview.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_tileview.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_tileview.c.s
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_win.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_win.c.obj: D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_win.c
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_win.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_win.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_win.c.obj -MF CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_win.c.obj.d -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_win.c.obj -c D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_win.c
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_win.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_win.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_win.c > CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_win.c.i
+
+CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_win.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_win.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\LVGL\src\lv_widgets\lv_win.c -o CMakeFiles\Tool.elf.dir\LVGL\src\lv_widgets\lv_win.c.s
+
 CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj: CMakeFiles/Tool.elf.dir/flags.make
 CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj: D:/STM32/Project/Tool/Middlewares/Third_Party/FatFs/src/diskio.c
 CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj"
 	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj -MF CMakeFiles\Tool.elf.dir\Middlewares\Third_Party\FatFs\src\diskio.c.obj.d -o CMakeFiles\Tool.elf.dir\Middlewares\Third_Party\FatFs\src\diskio.c.obj -c D:\STM32\Project\Tool\Middlewares\Third_Party\FatFs\src\diskio.c
 
 CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.i: cmake_force
@@ -518,7 +2226,7 @@ CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.s: cmake_forc
 CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.obj: CMakeFiles/Tool.elf.dir/flags.make
 CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.obj: D:/STM32/Project/Tool/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c
 CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.obj"
 	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.obj -MF CMakeFiles\Tool.elf.dir\Middlewares\Third_Party\FatFs\src\drivers\sd_diskio.c.obj.d -o CMakeFiles\Tool.elf.dir\Middlewares\Third_Party\FatFs\src\drivers\sd_diskio.c.obj -c D:\STM32\Project\Tool\Middlewares\Third_Party\FatFs\src\drivers\sd_diskio.c
 
 CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.i: cmake_force
@@ -532,7 +2240,7 @@ CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.s:
 CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj: CMakeFiles/Tool.elf.dir/flags.make
 CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj: D:/STM32/Project/Tool/Middlewares/Third_Party/FatFs/src/ff.c
 CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj"
 	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj -MF CMakeFiles\Tool.elf.dir\Middlewares\Third_Party\FatFs\src\ff.c.obj.d -o CMakeFiles\Tool.elf.dir\Middlewares\Third_Party\FatFs\src\ff.c.obj -c D:\STM32\Project\Tool\Middlewares\Third_Party\FatFs\src\ff.c
 
 CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.i: cmake_force
@@ -546,7 +2254,7 @@ CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.s: cmake_force
 CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj: CMakeFiles/Tool.elf.dir/flags.make
 CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj: D:/STM32/Project/Tool/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c
 CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj"
 	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj -MF CMakeFiles\Tool.elf.dir\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c.obj.d -o CMakeFiles\Tool.elf.dir\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c.obj -c D:\STM32\Project\Tool\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c
 
 CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.i: cmake_force
@@ -560,7 +2268,7 @@ CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.s: cmake_
 CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj: CMakeFiles/Tool.elf.dir/flags.make
 CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj: D:/STM32/Project/Tool/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c
 CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj"
 	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj -MF CMakeFiles\Tool.elf.dir\Middlewares\Third_Party\FatFs\src\option\ccsbcs.c.obj.d -o CMakeFiles\Tool.elf.dir\Middlewares\Third_Party\FatFs\src\option\ccsbcs.c.obj -c D:\STM32\Project\Tool\Middlewares\Third_Party\FatFs\src\option\ccsbcs.c
 
 CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.i: cmake_force
@@ -574,7 +2282,7 @@ CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.s: cma
 CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj: CMakeFiles/Tool.elf.dir/flags.make
 CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj: D:/STM32/Project/Tool/Middlewares/Third_Party/FatFs/src/option/syscall.c
 CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj"
 	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj -MF CMakeFiles\Tool.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.c.obj.d -o CMakeFiles\Tool.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.c.obj -c D:\STM32\Project\Tool\Middlewares\Third_Party\FatFs\src\option\syscall.c
 
 CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.i: cmake_force
@@ -588,7 +2296,7 @@ CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.s: cm
 CMakeFiles/Tool.elf.dir/User/Src/at24c02.c.obj: CMakeFiles/Tool.elf.dir/flags.make
 CMakeFiles/Tool.elf.dir/User/Src/at24c02.c.obj: D:/STM32/Project/Tool/User/Src/at24c02.c
 CMakeFiles/Tool.elf.dir/User/Src/at24c02.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/Tool.elf.dir/User/Src/at24c02.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/Tool.elf.dir/User/Src/at24c02.c.obj"
 	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/User/Src/at24c02.c.obj -MF CMakeFiles\Tool.elf.dir\User\Src\at24c02.c.obj.d -o CMakeFiles\Tool.elf.dir\User\Src\at24c02.c.obj -c D:\STM32\Project\Tool\User\Src\at24c02.c
 
 CMakeFiles/Tool.elf.dir/User/Src/at24c02.c.i: cmake_force
@@ -602,7 +2310,7 @@ CMakeFiles/Tool.elf.dir/User/Src/at24c02.c.s: cmake_force
 CMakeFiles/Tool.elf.dir/User/Src/callback.c.obj: CMakeFiles/Tool.elf.dir/flags.make
 CMakeFiles/Tool.elf.dir/User/Src/callback.c.obj: D:/STM32/Project/Tool/User/Src/callback.c
 CMakeFiles/Tool.elf.dir/User/Src/callback.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/Tool.elf.dir/User/Src/callback.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/Tool.elf.dir/User/Src/callback.c.obj"
 	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/User/Src/callback.c.obj -MF CMakeFiles\Tool.elf.dir\User\Src\callback.c.obj.d -o CMakeFiles\Tool.elf.dir\User\Src\callback.c.obj -c D:\STM32\Project\Tool\User\Src\callback.c
 
 CMakeFiles/Tool.elf.dir/User/Src/callback.c.i: cmake_force
@@ -616,7 +2324,7 @@ CMakeFiles/Tool.elf.dir/User/Src/callback.c.s: cmake_force
 CMakeFiles/Tool.elf.dir/User/Src/font.c.obj: CMakeFiles/Tool.elf.dir/flags.make
 CMakeFiles/Tool.elf.dir/User/Src/font.c.obj: D:/STM32/Project/Tool/User/Src/font.c
 CMakeFiles/Tool.elf.dir/User/Src/font.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/Tool.elf.dir/User/Src/font.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/Tool.elf.dir/User/Src/font.c.obj"
 	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/User/Src/font.c.obj -MF CMakeFiles\Tool.elf.dir\User\Src\font.c.obj.d -o CMakeFiles\Tool.elf.dir\User\Src\font.c.obj -c D:\STM32\Project\Tool\User\Src\font.c
 
 CMakeFiles/Tool.elf.dir/User/Src/font.c.i: cmake_force
@@ -630,7 +2338,7 @@ CMakeFiles/Tool.elf.dir/User/Src/font.c.s: cmake_force
 CMakeFiles/Tool.elf.dir/User/Src/func.c.obj: CMakeFiles/Tool.elf.dir/flags.make
 CMakeFiles/Tool.elf.dir/User/Src/func.c.obj: D:/STM32/Project/Tool/User/Src/func.c
 CMakeFiles/Tool.elf.dir/User/Src/func.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/Tool.elf.dir/User/Src/func.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/Tool.elf.dir/User/Src/func.c.obj"
 	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/User/Src/func.c.obj -MF CMakeFiles\Tool.elf.dir\User\Src\func.c.obj.d -o CMakeFiles\Tool.elf.dir\User\Src\func.c.obj -c D:\STM32\Project\Tool\User\Src\func.c
 
 CMakeFiles/Tool.elf.dir/User/Src/func.c.i: cmake_force
@@ -641,10 +2349,24 @@ CMakeFiles/Tool.elf.dir/User/Src/func.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/User/Src/func.c.s"
 	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\User\Src\func.c -o CMakeFiles\Tool.elf.dir\User\Src\func.c.s
 
+CMakeFiles/Tool.elf.dir/User/Src/gui.c.obj: CMakeFiles/Tool.elf.dir/flags.make
+CMakeFiles/Tool.elf.dir/User/Src/gui.c.obj: D:/STM32/Project/Tool/User/Src/gui.c
+CMakeFiles/Tool.elf.dir/User/Src/gui.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/Tool.elf.dir/User/Src/gui.c.obj"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/User/Src/gui.c.obj -MF CMakeFiles\Tool.elf.dir\User\Src\gui.c.obj.d -o CMakeFiles\Tool.elf.dir\User\Src\gui.c.obj -c D:\STM32\Project\Tool\User\Src\gui.c
+
+CMakeFiles/Tool.elf.dir/User/Src/gui.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tool.elf.dir/User/Src/gui.c.i"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32\Project\Tool\User\Src\gui.c > CMakeFiles\Tool.elf.dir\User\Src\gui.c.i
+
+CMakeFiles/Tool.elf.dir/User/Src/gui.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tool.elf.dir/User/Src/gui.c.s"
+	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32\Project\Tool\User\Src\gui.c -o CMakeFiles\Tool.elf.dir\User\Src\gui.c.s
+
 CMakeFiles/Tool.elf.dir/User/Src/lcd.c.obj: CMakeFiles/Tool.elf.dir/flags.make
 CMakeFiles/Tool.elf.dir/User/Src/lcd.c.obj: D:/STM32/Project/Tool/User/Src/lcd.c
 CMakeFiles/Tool.elf.dir/User/Src/lcd.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/Tool.elf.dir/User/Src/lcd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/Tool.elf.dir/User/Src/lcd.c.obj"
 	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/User/Src/lcd.c.obj -MF CMakeFiles\Tool.elf.dir\User\Src\lcd.c.obj.d -o CMakeFiles\Tool.elf.dir\User\Src\lcd.c.obj -c D:\STM32\Project\Tool\User\Src\lcd.c
 
 CMakeFiles/Tool.elf.dir/User/Src/lcd.c.i: cmake_force
@@ -658,7 +2380,7 @@ CMakeFiles/Tool.elf.dir/User/Src/lcd.c.s: cmake_force
 CMakeFiles/Tool.elf.dir/User/Src/touch.c.obj: CMakeFiles/Tool.elf.dir/flags.make
 CMakeFiles/Tool.elf.dir/User/Src/touch.c.obj: D:/STM32/Project/Tool/User/Src/touch.c
 CMakeFiles/Tool.elf.dir/User/Src/touch.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/Tool.elf.dir/User/Src/touch.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/Tool.elf.dir/User/Src/touch.c.obj"
 	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/User/Src/touch.c.obj -MF CMakeFiles\Tool.elf.dir\User\Src\touch.c.obj.d -o CMakeFiles\Tool.elf.dir\User\Src\touch.c.obj -c D:\STM32\Project\Tool\User\Src\touch.c
 
 CMakeFiles/Tool.elf.dir/User/Src/touch.c.i: cmake_force
@@ -672,7 +2394,7 @@ CMakeFiles/Tool.elf.dir/User/Src/touch.c.s: cmake_force
 CMakeFiles/Tool.elf.dir/User/Src/user.c.obj: CMakeFiles/Tool.elf.dir/flags.make
 CMakeFiles/Tool.elf.dir/User/Src/user.c.obj: D:/STM32/Project/Tool/User/Src/user.c
 CMakeFiles/Tool.elf.dir/User/Src/user.c.obj: CMakeFiles/Tool.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/Tool.elf.dir/User/Src/user.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/Tool.elf.dir/User/Src/user.c.obj"
 	"D:\Program Files\STMICR~1\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Tool.elf.dir/User/Src/user.c.obj -MF CMakeFiles\Tool.elf.dir\User\Src\user.c.obj.d -o CMakeFiles\Tool.elf.dir\User\Src\user.c.obj -c D:\STM32\Project\Tool\User\Src\user.c
 
 CMakeFiles/Tool.elf.dir/User/Src/user.c.i: cmake_force
@@ -716,6 +2438,128 @@ Tool_elf_OBJECTS = \
 "CMakeFiles/Tool.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.obj" \
 "CMakeFiles/Tool.elf.dir/FATFS/App/fatfs.c.obj" \
 "CMakeFiles/Tool.elf.dir/FATFS/Target/bsp_driver_sd.c.obj" \
+"CMakeFiles/Tool.elf.dir/GUI/custom/custom.c.obj" \
+"CMakeFiles/Tool.elf.dir/GUI/generated/events_init.c.obj" \
+"CMakeFiles/Tool.elf.dir/GUI/generated/gui_guider.c.obj" \
+"CMakeFiles/Tool.elf.dir/GUI/generated/guider_fonts/lv_font_arial_14.c.obj" \
+"CMakeFiles/Tool.elf.dir/GUI/generated/guider_fonts/lv_font_arial_48.c.obj" \
+"CMakeFiles/Tool.elf.dir/GUI/generated/guider_fonts/lv_font_simsun_12.c.obj" \
+"CMakeFiles/Tool.elf.dir/GUI/generated/images/_scan_example_alpha_224x204.c.obj" \
+"CMakeFiles/Tool.elf.dir/GUI/generated/setup_scr_screen.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/porting/lv_port_disp.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/porting/lv_port_fs.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/porting/lv_port_indev.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_disp.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_group.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_indev.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_obj.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_refr.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_style.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_arc.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_blend.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_img.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_label.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_line.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_mask.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_rect.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_triangle.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_img_buf.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_img_cache.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_img_decoder.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_dejavu_16_persian_hebrew.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_fmt_txt.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_loader.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_10.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_12.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_12_subpx.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_14.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_16.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_18.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_20.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_22.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_24.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_26.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_28.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_28_compressed.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_30.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_32.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_34.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_36.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_38.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_40.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_42.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_44.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_46.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_48.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_8.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_simsun_16_cjk.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_unscii_16.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_unscii_8.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_nxp_pxp.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_nxp_pxp_osa.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_nxp_vglite.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_stm32_dma2d.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_hal/lv_hal_disp.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_hal/lv_hal_indev.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_hal/lv_hal_tick.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_anim.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_area.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_async.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_bidi.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_color.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_debug.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_fs.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_gc.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_ll.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_log.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_math.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_mem.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_printf.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_task.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_templ.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_txt.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_txt_ap.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_utils.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_empty.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_material.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_mono.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_template.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_arc.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_bar.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_btn.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_btnmatrix.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_calendar.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_canvas.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_chart.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_checkbox.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_cont.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_cpicker.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_dropdown.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_gauge.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_img.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_imgbtn.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_keyboard.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_label.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_led.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_line.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_linemeter.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_list.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_msgbox.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_objmask.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_objx_templ.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_page.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_roller.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_slider.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_spinbox.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_spinner.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_switch.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_table.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_tabview.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_textarea.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_tileview.c.obj" \
+"CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_win.c.obj" \
 "CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj" \
 "CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.obj" \
 "CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj" \
@@ -726,6 +2570,7 @@ Tool_elf_OBJECTS = \
 "CMakeFiles/Tool.elf.dir/User/Src/callback.c.obj" \
 "CMakeFiles/Tool.elf.dir/User/Src/font.c.obj" \
 "CMakeFiles/Tool.elf.dir/User/Src/func.c.obj" \
+"CMakeFiles/Tool.elf.dir/User/Src/gui.c.obj" \
 "CMakeFiles/Tool.elf.dir/User/Src/lcd.c.obj" \
 "CMakeFiles/Tool.elf.dir/User/Src/touch.c.obj" \
 "CMakeFiles/Tool.elf.dir/User/Src/user.c.obj"
@@ -764,6 +2609,128 @@ Tool.elf: CMakeFiles/Tool.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal
 Tool.elf: CMakeFiles/Tool.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.obj
 Tool.elf: CMakeFiles/Tool.elf.dir/FATFS/App/fatfs.c.obj
 Tool.elf: CMakeFiles/Tool.elf.dir/FATFS/Target/bsp_driver_sd.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/GUI/custom/custom.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/GUI/generated/events_init.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/GUI/generated/gui_guider.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/GUI/generated/guider_fonts/lv_font_arial_14.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/GUI/generated/guider_fonts/lv_font_arial_48.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/GUI/generated/guider_fonts/lv_font_simsun_12.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/GUI/generated/images/_scan_example_alpha_224x204.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/GUI/generated/setup_scr_screen.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/porting/lv_port_disp.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/porting/lv_port_fs.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/porting/lv_port_indev.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_disp.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_group.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_indev.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_obj.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_refr.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_core/lv_style.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_arc.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_blend.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_img.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_label.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_line.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_mask.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_rect.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_draw_triangle.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_img_buf.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_img_cache.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_draw/lv_img_decoder.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_dejavu_16_persian_hebrew.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_fmt_txt.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_loader.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_10.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_12.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_12_subpx.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_14.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_16.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_18.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_20.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_22.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_24.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_26.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_28.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_28_compressed.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_30.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_32.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_34.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_36.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_38.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_40.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_42.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_44.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_46.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_48.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_montserrat_8.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_simsun_16_cjk.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_unscii_16.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_font/lv_font_unscii_8.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_nxp_pxp.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_nxp_pxp_osa.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_nxp_vglite.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_gpu/lv_gpu_stm32_dma2d.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_hal/lv_hal_disp.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_hal/lv_hal_indev.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_hal/lv_hal_tick.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_anim.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_area.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_async.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_bidi.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_color.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_debug.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_fs.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_gc.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_ll.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_log.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_math.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_mem.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_printf.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_task.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_templ.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_txt.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_txt_ap.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_misc/lv_utils.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_empty.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_material.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_mono.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_themes/lv_theme_template.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_arc.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_bar.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_btn.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_btnmatrix.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_calendar.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_canvas.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_chart.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_checkbox.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_cont.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_cpicker.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_dropdown.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_gauge.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_img.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_imgbtn.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_keyboard.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_label.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_led.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_line.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_linemeter.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_list.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_msgbox.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_objmask.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_objx_templ.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_page.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_roller.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_slider.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_spinbox.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_spinner.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_switch.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_table.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_tabview.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_textarea.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_tileview.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/LVGL/src/lv_widgets/lv_win.c.obj
 Tool.elf: CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj
 Tool.elf: CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.obj
 Tool.elf: CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj
@@ -774,12 +2741,14 @@ Tool.elf: CMakeFiles/Tool.elf.dir/User/Src/at24c02.c.obj
 Tool.elf: CMakeFiles/Tool.elf.dir/User/Src/callback.c.obj
 Tool.elf: CMakeFiles/Tool.elf.dir/User/Src/font.c.obj
 Tool.elf: CMakeFiles/Tool.elf.dir/User/Src/func.c.obj
+Tool.elf: CMakeFiles/Tool.elf.dir/User/Src/gui.c.obj
 Tool.elf: CMakeFiles/Tool.elf.dir/User/Src/lcd.c.obj
 Tool.elf: CMakeFiles/Tool.elf.dir/User/Src/touch.c.obj
 Tool.elf: CMakeFiles/Tool.elf.dir/User/Src/user.c.obj
 Tool.elf: CMakeFiles/Tool.elf.dir/build.make
+Tool.elf: CMakeFiles/Tool.elf.dir/objects1.rsp
 Tool.elf: CMakeFiles/Tool.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Linking C executable Tool.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\STM32\Project\Tool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Linking C executable Tool.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Tool.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/STM32/Project/Tool/cmake-build-debug/Tool.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/STM32/Project/Tool/cmake-build-debug/Tool.bin"

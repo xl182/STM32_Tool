@@ -79,4 +79,6 @@ CMakeFiles/Tool.elf.dir/User/Src/user.c.obj: \
  D:\STM32\Project\Tool\Core\Inc/spi.h \
  D:\STM32\Project\Tool\User\Inc/touch.h \
  D:\STM32\Project\Tool\User\Inc/sys.h \
- D:\STM32\Project\Tool\Drivers\CMSIS\Device\ST\STM32F1xx\Include/stm32f103xe.h
+ D:\STM32\Project\Tool\Drivers\CMSIS\Device\ST\STM32F1xx\Include/stm32f103xe.h \
+ D:\STM32\Project\Tool\User\Inc/at24c02.h \
+ D:\STM32\Project\Tool\Core\Inc/i2c.h

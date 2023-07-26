@@ -57,16 +57,16 @@ void SystemClock_Config();
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define T_IRQ_Pin GPIO_PIN_5
-#define T_IRQ_GPIO_Port GPIOA
-#define T_DO_Pin GPIO_PIN_7
+#define T_CLK_Pin GPIO_PIN_5
+#define T_CLK_GPIO_Port GPIOA
+#define T_DO_Pin GPIO_PIN_6
 #define T_DO_GPIO_Port GPIOA
-#define T_DIN_Pin GPIO_PIN_5
-#define T_DIN_GPIO_Port GPIOC
-#define T_CS_Pin GPIO_PIN_2
-#define T_CS_GPIO_Port GPIOB
-#define T_CLK_Pin GPIO_PIN_7
-#define T_CLK_GPIO_Port GPIOE
+#define T_DIN_Pin GPIO_PIN_7
+#define T_DIN_GPIO_Port GPIOA
+#define T_CS_Pin GPIO_PIN_4
+#define T_CS_GPIO_Port GPIOC
+#define T_IRQ_Pin GPIO_PIN_5
+#define T_IRQ_GPIO_Port GPIOC
 #define LCD_BL_Pin GPIO_PIN_11
 #define LCD_BL_GPIO_Port GPIOB
 #define LCD_DC_Pin GPIO_PIN_9

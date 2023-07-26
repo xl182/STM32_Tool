@@ -25,7 +25,6 @@ int AT24C02_read_16bit(uint8_t addr, uint16_t *data);
 
 int AT24C02_read_32bit(uint8_t addr, uint32_t *data);
 
-
 int AT24C02_write_8bit(uint8_t addr, uint8_t data);
 
 int AT24C02_write_16bit(uint8_t addr, uint16_t data);

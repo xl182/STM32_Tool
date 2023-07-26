@@ -49,11 +49,31 @@ else ()
     add_compile_options(-Og -g)
 endif ()
 
-include_directories(User/Inc Core/Inc FATFS/Target FATFS/App Drivers/STM32F1xx_HAL_Driver/Inc/Legacy Drivers/STM32F1xx_HAL_Driver/Inc Middlewares/Third_Party/FatFs/src Middlewares/Third_Party/FatFs/src/drivers Drivers/CMSIS/Device/ST/STM32F1xx/Include Drivers/CMSIS/Include)
+include_directories(User/Inc
+        Core/Inc FATFS/Target
+        FATFS/App
+        Drivers/STM32F1xx_HAL_Driver/Inc/Legacy
+        Drivers/STM32F1xx_HAL_Driver/Inc
+        Middlewares/Third_Party/FatFs/src
+        Middlewares/Third_Party/FatFs/src/drivers
+        Drivers/CMSIS/Device/ST/STM32F1xx/Include
+        Drivers/CMSIS/Include
+        .
+        lvgl
+        lvgl/porting
+        lvgl/src
+        lvgl/src/lv_font
+        GUI
+        GUI/generated
+        GUI/custom
+        GUI/generated/guider_fonts
+        GUI/generated/guider_customer_fonts
+        )
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE)
 
-file(GLOB_RECURSE SOURCES "User/*.*" "Core/*.*" "FATFS/*.*" "Middlewares/*.*" "Drivers/*.*")
+file(GLOB_RECURSE SOURCES "User/*.*" "Core/*.*" "FATFS/*.*" "Middlewares/*.*" "Drivers/*.*"
+        "GUI/custom/*.*" "GUI/generated/*.*" "lvgl/*.*")
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F103VCTX_FLASH.ld)
 
