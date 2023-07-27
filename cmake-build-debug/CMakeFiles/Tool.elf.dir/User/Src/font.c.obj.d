@@ -37,4 +37,7 @@ CMakeFiles/Tool.elf.dir/User/Src/font.c.obj: \
  d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\sys\_locale.h \
  d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\strings.h \
  d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\sys\string.h \
- d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h
+ d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h \
+ d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\stdlib.h \
+ d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\machine\stdlib.h \
+ d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\alloca.h

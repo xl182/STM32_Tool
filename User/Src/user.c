@@ -10,7 +10,6 @@ void init() {
     SystemClock_Config();
     MX_GPIO_Init();
     MX_USART1_UART_Init();
-    printf("begin\n");
 
     MX_TIM2_Init();
     MX_TIM6_Init();
@@ -24,10 +23,8 @@ void init() {
 
 int main() {
     init();
-    lv_textarea_add_text(ui->screen_ta_1, "中文测试");
+
     while (1) {
-        touch_scan();
         lv_task_handler();
     }
-
 }

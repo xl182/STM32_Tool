@@ -76,6 +76,9 @@ CMakeFiles/Tool.elf.dir/User/Src/callback.c.obj: \
  d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\strings.h \
  d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\sys\string.h \
  d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h \
+ d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\stdlib.h \
+ d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\machine\stdlib.h \
+ d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\arm-none-eabi\include\alloca.h \
  D:\STM32\Project\Tool\User\Inc/at24c02.h \
  D:\STM32\Project\Tool\Core\Inc/i2c.h \
  D:\STM32\Project\Tool\User\Inc/lcd.h \

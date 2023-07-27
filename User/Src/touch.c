@@ -43,23 +43,8 @@ void touch_write_para() {
 }
 
 uint8_t touch_scan() {
-    uint16_t x, y;
     if (XPT2046_PEN == 0) {
         touch_read_xy();
-        x = touch.x_fraction * (touch.x - touch.x_offset);
-        y = touch.y_fraction * (touch.y - touch.y_offset);
-        x = x > LCD_WIDTH ? LCD_WIDTH : x;
-        y = y > LCD_HEIGHT ? LCD_HEIGHT : y;
-        x = x < 0 ? 0 : x;
-        y = y < 0 ? 0 : y;
-        touch.x = x;
-        touch.y = y;
-
-        if ((touch.sta & TOUCH_PRESS_DOWN) == 0) {
-            touch.sta = TOUCH_PRESS_DOWN;
-            touch.x0 = touch.x;
-            touch.y0 = touch.y;
-        }
     } else {
         if ((touch.sta & TOUCH_PRESS_DOWN)) {
             touch.sta &= ~(1 << 7);
@@ -116,17 +101,22 @@ u16 touch_read_data(u8 cmd) {
 }
 
 u8 touch_read_xy(void) {
-    if (XPT2046_PEN == 0) //判断触摸屏是否按下
-    {
-        /*1. 得到物理坐标*/
-        touch.x0 = touch_read_data(0x90);
-        touch.y0 = touch_read_data(0xD0);
+    uint16_t x, y;
+    /*1. 得到物理坐标*/
+    touch.x0 = touch_read_data(0x90);
+    touch.y0 = touch_read_data(0xD0);
+    touch.x = touch.x0;
+    touch.y = touch.y0;
 
-        touch.x = touch.x0;
-        touch.y = touch.y0;
-        /*2. 得到像素坐标*/
-        return 1;
-    }
+    x = touch.x_fraction * (touch.x - touch.x_offset);
+    y = touch.y_fraction * (touch.y - touch.y_offset);
+    x = x > LCD_WIDTH ? LCD_WIDTH : x;
+    y = y > LCD_HEIGHT ? LCD_HEIGHT : y;
+    x = x < 0 ? 0 : x;
+    y = y < 0 ? 0 : y;
+
+    touch.x = x;
+    touch.y = y;
     return 0;
 }
 

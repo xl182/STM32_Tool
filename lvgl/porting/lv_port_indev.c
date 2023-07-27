@@ -10,17 +10,18 @@
  *      INCLUDES
  *********************/
 #include "lv_port_indev.h"
-/*********************
- *      DEFINES
- *********************/
-/**********************
- *      TYPEDEFS
- **********************/
 
-/**********************
- *  STATIC PROTOTYPES
- **********************/
+#define LV_USE_INDEV_TOUCHPAD    0x1u
+#define LV_USE_INDEV_MOUSE        0x2u
+#define LV_USE_INDEV_KEYPAD    0x4u
+#define LV_USE_INDEV_ENCODER    0x8u
+#define LV_USE_INDEV_BUTTON    0x10u
+#define LV_USE_INDEV    LV_USE_INDEV_TOUCHPAD
 
+/************************************************
+ * 二、根据注释 我们找到 STATIC PROTOTYPES，按类型
+ * 添加预处理语句
+ ************************************************/
 static void touchpad_init(void);
 
 static bool touchpad_read(lv_indev_drv_t *indev_drv, lv_indev_data_t *data);
@@ -29,6 +30,7 @@ static bool touchpad_is_pressed(void);
 
 static void touchpad_get_xy(lv_coord_t *x, lv_coord_t *y);
 
+
 static void mouse_init(void);
 
 static bool mouse_read(lv_indev_drv_t *indev_drv, lv_indev_data_t *data);
@@ -36,6 +38,7 @@ static bool mouse_read(lv_indev_drv_t *indev_drv, lv_indev_data_t *data);
 static bool mouse_is_pressed(void);
 
 static void mouse_get_xy(lv_coord_t *x, lv_coord_t *y);
+
 
 static void keypad_init(void);
 
@@ -200,7 +203,6 @@ static bool touchpad_read(lv_indev_drv_t *indev_drv, lv_indev_data_t *data) {
 
     /*Save the pressed coordinates and the state*/
     if (touchpad_is_pressed()) {
-        touch_scan();
         touchpad_get_xy(&last_x, &last_y);
         data->state = LV_INDEV_STATE_PR;
     } else {
@@ -218,7 +220,8 @@ static bool touchpad_read(lv_indev_drv_t *indev_drv, lv_indev_data_t *data) {
 /*Return true is the touchpad is pressed*/
 static bool touchpad_is_pressed(void) {
     /*Your code comes here*/
-    if (TOUCH_PRESS_DOWN & touch.sta) {
+
+    if (XPT2046_PEN == 0) {
         return true;
     }
     return false;
@@ -227,6 +230,8 @@ static bool touchpad_is_pressed(void) {
 /*Get the x and y coordinates if the touchpad is pressed*/
 static void touchpad_get_xy(lv_coord_t *x, lv_coord_t *y) {
     /*Your code comes here*/
+    /*1. 得到物理坐标*/
+    touch_read_xy();
     (*x) = touch.x;
     (*y) = touch.y;
 }
