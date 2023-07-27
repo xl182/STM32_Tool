@@ -20,26 +20,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1aca1990-d501-441a-bb55-31fcb52e932a" name="更改" comment="font file ok">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User/Inc/base.h" beforeDir="false" afterPath="$PROJECT_DIR$/User/Inc/base.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User/Src/touch.c" beforeDir="false" afterPath="$PROJECT_DIR$/User/Src/touch.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User/Src/user.c" beforeDir="false" afterPath="$PROJECT_DIR$/User/Src/user.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/User/Src/callback.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/User/Src/callback.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/User/Src/font.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/User/Src/font.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/User/Src/func.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/User/Src/func.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/User/Src/lcd.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/User/Src/lcd.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/User/Src/touch.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/User/Src/touch.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/User/Src/touch.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/User/Src/touch.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/User/Src/user.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/User/Src/user.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/compiler_depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Tool.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Tool.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Tool.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Tool.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Tool.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Tool.hex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Tool.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Tool.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lvgl/porting/lv_port_indev.c" beforeDir="false" afterPath="$PROJECT_DIR$/lvgl/porting/lv_port_indev.c" afterDir="false" />
-    </list>
+    <list default="true" id="1aca1990-d501-441a-bb55-31fcb52e932a" name="更改" comment="font file ok" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,23 +49,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "last_opened_file_path": "D:/STM32/Project/Tool/lvgl/src/lv_font",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "CMakeSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/STM32/Project/Tool/lvgl/src/lv_font&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\STM32\Project\Tool\lvgl\src\lv_font" />
@@ -99,11 +80,6 @@
   </component>
   <component name="RunManager" selected="嵌入式 GDB 服务器.Tool.elf">
     <configuration name="Tool.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tool" TARGET_NAME="Tool.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Tool" RUN_TARGET_NAME="Tool.elf">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -136,6 +112,8 @@
       <workItem from="1690432869188" duration="214000" />
       <workItem from="1690433332980" duration="11128000" />
       <workItem from="1690448572084" duration="10957000" />
+      <workItem from="1690461677851" duration="3000" />
+      <workItem from="1690461952464" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1690203854790</created>

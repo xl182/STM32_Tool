@@ -9,8 +9,6 @@
 #include "tim.h"
 #include "gui.h"
 
-void debug_text(char *format, ...);
-
 void set_lcd_brightness(uint8_t lcd_brightness);
 
 #endif //TOOL_FUNC_H

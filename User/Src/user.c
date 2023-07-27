@@ -24,6 +24,7 @@ void init() {
 int main() {
     init();
 
+    lv_textarea_add_text(ui->screen_ta_1, "中文测试");
     while (1) {
         lv_task_handler();
     }
