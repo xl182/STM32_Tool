@@ -37,6 +37,7 @@ CMakeFiles/Tool.elf.dir/Core/Src/main.c.obj: \
  D:\STM32\Project\Tool\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_spi.h \
  D:\STM32\Project\Tool\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_tim.h \
  D:\STM32\Project\Tool\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_tim_ex.h \
+ D:\STM32\Project\Tool\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_uart.h \
  D:\STM32\Project\Tool\FATFS\App/fatfs.h \
  D:\STM32\Project\Tool\Middlewares\Third_Party\FatFs\src/ff.h \
  D:\STM32\Project\Tool\Middlewares\Third_Party\FatFs\src/integer.h \
@@ -51,4 +52,5 @@ CMakeFiles/Tool.elf.dir/Core/Src/main.c.obj: \
  D:\STM32\Project\Tool\Core\Inc/sdio.h \
  D:\STM32\Project\Tool\Core\Inc/spi.h \
  D:\STM32\Project\Tool\Core\Inc/tim.h \
+ D:\STM32\Project\Tool\Core\Inc/usart.h \
  D:\STM32\Project\Tool\Core\Inc/gpio.h

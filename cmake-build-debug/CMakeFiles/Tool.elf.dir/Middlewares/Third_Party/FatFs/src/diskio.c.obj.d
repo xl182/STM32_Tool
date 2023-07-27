@@ -42,4 +42,5 @@ CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj: \
  D:\STM32\Project\Tool\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_spi.h \
  D:\STM32\Project\Tool\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_tim.h \
  D:\STM32\Project\Tool\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_tim_ex.h \
+ D:\STM32\Project\Tool\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_uart.h \
  D:\STM32\Project\Tool\FATFS\Target/bsp_driver_sd.h

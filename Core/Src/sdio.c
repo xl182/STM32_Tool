@@ -28,96 +28,101 @@ SD_HandleTypeDef hsd;
 
 /* SDIO init function */
 
-void MX_SDIO_SD_Init(void) {
+void MX_SDIO_SD_Init(void)
+{
 
-    /* USER CODE BEGIN SDIO_Init 0 */
+  /* USER CODE BEGIN SDIO_Init 0 */
 
-    /* USER CODE END SDIO_Init 0 */
+  /* USER CODE END SDIO_Init 0 */
 
-    /* USER CODE BEGIN SDIO_Init 1 */
+  /* USER CODE BEGIN SDIO_Init 1 */
 
-    /* USER CODE END SDIO_Init 1 */
-    hsd.Instance = SDIO;
-    hsd.Init.ClockEdge = SDIO_CLOCK_EDGE_RISING;
-    hsd.Init.ClockBypass = SDIO_CLOCK_BYPASS_DISABLE;
-    hsd.Init.ClockPowerSave = SDIO_CLOCK_POWER_SAVE_DISABLE;
-    hsd.Init.BusWide = SDIO_BUS_WIDE_4B;
-    hsd.Init.HardwareFlowControl = SDIO_HARDWARE_FLOW_CONTROL_DISABLE;
-    hsd.Init.ClockDiv = 6;
-    /* USER CODE BEGIN SDIO_Init 2 */
+  /* USER CODE END SDIO_Init 1 */
+  hsd.Instance = SDIO;
+  hsd.Init.ClockEdge = SDIO_CLOCK_EDGE_RISING;
+  hsd.Init.ClockBypass = SDIO_CLOCK_BYPASS_DISABLE;
+  hsd.Init.ClockPowerSave = SDIO_CLOCK_POWER_SAVE_DISABLE;
+  hsd.Init.BusWide = SDIO_BUS_WIDE_4B;
+  hsd.Init.HardwareFlowControl = SDIO_HARDWARE_FLOW_CONTROL_DISABLE;
+  hsd.Init.ClockDiv = 6;
+  /* USER CODE BEGIN SDIO_Init 2 */
     hsd.Init.BusWide = SDIO_BUS_WIDE_1B;
-    /* USER CODE END SDIO_Init 2 */
+  /* USER CODE END SDIO_Init 2 */
 
 }
 
-void HAL_SD_MspInit(SD_HandleTypeDef *sdHandle) {
+void HAL_SD_MspInit(SD_HandleTypeDef* sdHandle)
+{
 
-    GPIO_InitTypeDef GPIO_InitStruct = {0};
-    if (sdHandle->Instance == SDIO) {
-        /* USER CODE BEGIN SDIO_MspInit 0 */
+  GPIO_InitTypeDef GPIO_InitStruct = {0};
+  if(sdHandle->Instance==SDIO)
+  {
+  /* USER CODE BEGIN SDIO_MspInit 0 */
 
-        /* USER CODE END SDIO_MspInit 0 */
-        /* SDIO clock enable */
-        __HAL_RCC_SDIO_CLK_ENABLE();
+  /* USER CODE END SDIO_MspInit 0 */
+    /* SDIO clock enable */
+    __HAL_RCC_SDIO_CLK_ENABLE();
 
-        __HAL_RCC_GPIOC_CLK_ENABLE();
-        __HAL_RCC_GPIOD_CLK_ENABLE();
-        /**SDIO GPIO Configuration
-        PC8     ------> SDIO_D0
-        PC9     ------> SDIO_D1
-        PC10     ------> SDIO_D2
-        PC11     ------> SDIO_D3
-        PC12     ------> SDIO_CK
-        PD2     ------> SDIO_CMD
-        */
-        GPIO_InitStruct.Pin = GPIO_PIN_8 | GPIO_PIN_9 | GPIO_PIN_10 | GPIO_PIN_11
-                              | GPIO_PIN_12;
-        GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
-        GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
-        HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
+    __HAL_RCC_GPIOC_CLK_ENABLE();
+    __HAL_RCC_GPIOD_CLK_ENABLE();
+    /**SDIO GPIO Configuration
+    PC8     ------> SDIO_D0
+    PC9     ------> SDIO_D1
+    PC10     ------> SDIO_D2
+    PC11     ------> SDIO_D3
+    PC12     ------> SDIO_CK
+    PD2     ------> SDIO_CMD
+    */
+    GPIO_InitStruct.Pin = GPIO_PIN_8|GPIO_PIN_9|GPIO_PIN_10|GPIO_PIN_11
+                          |GPIO_PIN_12;
+    GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
+    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
+    HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
-        GPIO_InitStruct.Pin = GPIO_PIN_2;
-        GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
-        GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
-        HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
+    GPIO_InitStruct.Pin = GPIO_PIN_2;
+    GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
+    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
+    HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
 
-        /* SDIO interrupt Init */
-        HAL_NVIC_SetPriority(SDIO_IRQn, 0, 0);
-        HAL_NVIC_EnableIRQ(SDIO_IRQn);
-        /* USER CODE BEGIN SDIO_MspInit 1 */
+    /* SDIO interrupt Init */
+    HAL_NVIC_SetPriority(SDIO_IRQn, 0, 0);
+    HAL_NVIC_EnableIRQ(SDIO_IRQn);
+  /* USER CODE BEGIN SDIO_MspInit 1 */
 
-        /* USER CODE END SDIO_MspInit 1 */
-    }
+  /* USER CODE END SDIO_MspInit 1 */
+  }
 }
 
-void HAL_SD_MspDeInit(SD_HandleTypeDef *sdHandle) {
+void HAL_SD_MspDeInit(SD_HandleTypeDef* sdHandle)
+{
 
-    if (sdHandle->Instance == SDIO) {
-        /* USER CODE BEGIN SDIO_MspDeInit 0 */
+  if(sdHandle->Instance==SDIO)
+  {
+  /* USER CODE BEGIN SDIO_MspDeInit 0 */
 
-        /* USER CODE END SDIO_MspDeInit 0 */
-        /* Peripheral clock disable */
-        __HAL_RCC_SDIO_CLK_DISABLE();
+  /* USER CODE END SDIO_MspDeInit 0 */
+    /* Peripheral clock disable */
+    __HAL_RCC_SDIO_CLK_DISABLE();
 
-        /**SDIO GPIO Configuration
-        PC8     ------> SDIO_D0
-        PC9     ------> SDIO_D1
-        PC10     ------> SDIO_D2
-        PC11     ------> SDIO_D3
-        PC12     ------> SDIO_CK
-        PD2     ------> SDIO_CMD
-        */
-        HAL_GPIO_DeInit(GPIOC, GPIO_PIN_8 | GPIO_PIN_9 | GPIO_PIN_10 | GPIO_PIN_11
-                               | GPIO_PIN_12);
+    /**SDIO GPIO Configuration
+    PC8     ------> SDIO_D0
+    PC9     ------> SDIO_D1
+    PC10     ------> SDIO_D2
+    PC11     ------> SDIO_D3
+    PC12     ------> SDIO_CK
+    PD2     ------> SDIO_CMD
+    */
+    HAL_GPIO_DeInit(GPIOC, GPIO_PIN_8|GPIO_PIN_9|GPIO_PIN_10|GPIO_PIN_11
+                          |GPIO_PIN_12);
 
-        HAL_GPIO_DeInit(GPIOD, GPIO_PIN_2);
+    HAL_GPIO_DeInit(GPIOD, GPIO_PIN_2);
 
-        /* SDIO interrupt Deinit */
-        HAL_NVIC_DisableIRQ(SDIO_IRQn);
-        /* USER CODE BEGIN SDIO_MspDeInit 1 */
+    /* SDIO interrupt Deinit */
+    HAL_NVIC_DisableIRQ(SDIO_IRQn);
+  /* USER CODE BEGIN SDIO_MspDeInit 1 */
 
-        /* USER CODE END SDIO_MspDeInit 1 */
-    }
+  /* USER CODE END SDIO_MspDeInit 1 */
+  }
 }
 
 /* USER CODE BEGIN 1 */

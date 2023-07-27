@@ -10,8 +10,10 @@
 #include "base.h"
 #include "main.h"
 #include "func.h"
+#include "test.h"
 
 #include "gpio.h"
+#include "usart.h"
 #include "tim.h"
 #include "lcd.h"
 
@@ -19,5 +21,6 @@
 #include "sdio.h"
 
 #include "gui.h"
+
 
 #endif //TOOL_USER_H

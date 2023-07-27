@@ -200,6 +200,7 @@ static bool touchpad_read(lv_indev_drv_t *indev_drv, lv_indev_data_t *data) {
 
     /*Save the pressed coordinates and the state*/
     if (touchpad_is_pressed()) {
+        touch_scan();
         touchpad_get_xy(&last_x, &last_y);
         data->state = LV_INDEV_STATE_PR;
     } else {

@@ -76,18 +76,16 @@ __weak uint8_t BSP_SD_Init(void)
   * @brief  Configures Interrupt mode for SD detection pin.
   * @retval Returns 0
   */
-__weak uint8_t BSP_SD_ITConfig(void)
-{
-  /* Code to be updated by the user or replaced by one from the FW pack (in a stmxxxx_sd.c file) */
+__weak uint8_t BSP_SD_ITConfig(void) {
+    /* Code to be updated by the user or replaced by one from the FW pack (in a stmxxxx_sd.c file) */
 
-  return (uint8_t)0;
+    return (uint8_t) 0;
 }
 
 /** @brief  SD detect IT treatment
   */
-__weak void BSP_SD_DetectIT(void)
-{
-  /* Code to be updated by the user or replaced by one from the FW pack (in a stmxxxx_sd.c file) */
+__weak void BSP_SD_DetectIT(void) {
+    /* Code to be updated by the user or replaced by one from the FW pack (in a stmxxxx_sd.c file) */
 }
 /* USER CODE END InterruptMode */
 
@@ -267,8 +265,7 @@ void HAL_SD_RxCpltCallback(SD_HandleTypeDef *hsd)
   * @retval None
   * @note empty (up to the user to fill it in or to remove it if useless)
   */
-__weak void BSP_SD_AbortCallback(void)
-{
+__weak void BSP_SD_AbortCallback(void) {
 
 }
 
@@ -277,8 +274,7 @@ __weak void BSP_SD_AbortCallback(void)
   * @retval None
   * @note empty (up to the user to fill it in or to remove it if useless)
   */
-__weak void BSP_SD_WriteCpltCallback(void)
-{
+__weak void BSP_SD_WriteCpltCallback(void) {
 
 }
 
@@ -287,8 +283,7 @@ __weak void BSP_SD_WriteCpltCallback(void)
   * @retval None
   * @note empty (up to the user to fill it in or to remove it if useless)
   */
-__weak void BSP_SD_ReadCpltCallback(void)
-{
+__weak void BSP_SD_ReadCpltCallback(void) {
 
 }
 /* USER CODE END CallBacksSection_C */
@@ -304,7 +299,7 @@ __weak uint8_t BSP_SD_IsDetected(void)
   __IO uint8_t status = SD_PRESENT;
 
   /* USER CODE BEGIN 1 */
-  /* user code can be inserted here */
+    /* user code can be inserted here */
   /* USER CODE END 1 */
 
   return status;

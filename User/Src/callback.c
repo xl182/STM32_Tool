@@ -4,6 +4,9 @@
 
 #include "callback.h"
 
+#include "touch.h"
+#include "lvgl.h"
+
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
     if (htim->Instance == TIM6) {
         static int led_count = 0;

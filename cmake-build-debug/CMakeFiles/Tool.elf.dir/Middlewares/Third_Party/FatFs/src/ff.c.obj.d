@@ -40,6 +40,7 @@ CMakeFiles/Tool.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj: \
  D:\STM32\Project\Tool\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_spi.h \
  D:\STM32\Project\Tool\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_tim.h \
  D:\STM32\Project\Tool\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_tim_ex.h \
+ D:\STM32\Project\Tool\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_uart.h \
  D:\STM32\Project\Tool\FATFS\Target/bsp_driver_sd.h \
  D:\STM32\Project\Tool\Middlewares\Third_Party\FatFs\src\diskio.h \
  d:\program\ files\stmicr~1\stm32c~1\gnu-to~1\lib\gcc\arm-none-eabi\10.3.1\include\stdarg.h

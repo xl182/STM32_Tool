@@ -380,26 +380,26 @@ void LCD_Format(u16 x, u16 y, u8 size, u32 fColor, u32 bColor, char *format, ...
  *          u32 fColor  字色
  *          u32 bColor  底色
  *****************************************************************/
-void LCD_Chinese(u32 x, u32 y, u8 index, uint8_t size, u16 fColor, u16 bColor) {
-//    spiInit();                                      // 防止SPI参数被其它设备修改了
-
-    const u8 *temp = bitmap_bytes[index];              // 获取字体数据在数组中的的起始位置
-    const u8 len = bitmap_bytes_len[index];
-    for (u8 j = 0; j < size; j++) {
-        setCursor(x, y + j, x + size * len, y + j + size);
-        for (int c = 0; c < len; c++) {
-            for (u8 k = 0; k < size >> 3; k++) {
-                for (u8 i = 0; i < 8; i++) {
-                    if ((*temp & (128 >> i)) != 0)
-                        sendShort(fColor);
-                    else
-                        sendShort(bColor);
-                }
-                temp++;
-            }
-        }
-    }
-}
+//void LCD_Chinese(u32 x, u32 y, u8 index, uint8_t size, u16 fColor, u16 bColor) {
+////    spiInit();                                      // 防止SPI参数被其它设备修改了
+//
+//    const u8 *temp = bitmap_bytes[index];              // 获取字体数据在数组中的的起始位置
+//    const u8 len = bitmap_bytes_len[index];
+//    for (u8 j = 0; j < size; j++) {
+//        setCursor(x, y + j, x + size * len, y + j + size);
+//        for (int c = 0; c < len; c++) {
+//            for (u8 k = 0; k < size >> 3; k++) {
+//                for (u8 i = 0; i < 8; i++) {
+//                    if ((*temp & (128 >> i)) != 0)
+//                        sendShort(fColor);
+//                    else
+//                        sendShort(bColor);
+//                }
+//                temp++;
+//            }
+//        }
+//    }
+//}
 
 /******************************************************************
  * 函数名： LCD_Chinese32ForFile
@@ -447,14 +447,14 @@ void drawAscii(u16 x, u16 y, u8 num, u8 size, u32 fColor, u32 bColor) {
 
     u8 temp;
     u16 y0 = y;
-
+    size = 12;
     u8 csize = (size / 8 + ((size % 8) ? 1 : 0)) * (size / 2);           // 得到字体一个字符对应点阵集所占的字节数
     num = num - ' ';                                       // 得到偏移后的值（ASCII字库是从空格开始取模，所以-' '就是对应字符的字库）
     for (u8 t = 0; t < csize; t++) {
         if (size == 12) temp = asc2_1206[num][t];   // 调用1206字体
-        else if (size == 16) temp = asc2_1608[num][t];   // 调用1608字体
-        else if (size == 24) temp = asc2_2412[num][t];   // 调用2412字体
-        else if (size == 32) temp = asc2_3216[num][t];   // 调用3216字体
+//        else if (size == 16) temp = asc2_1608[num][t];   // 调用1608字体
+//        else if (size == 24) temp = asc2_2412[num][t];   // 调用2412字体
+//        else if (size == 32) temp = asc2_3216[num][t];   // 调用3216字体
         else return;                                   // 没有的字库
 
         for (u8 t1 = 0; t1 < 8; t1++) {

@@ -37,10 +37,11 @@
 					<Add directory="D:/STM32/Project/Tool/Middlewares/Third_Party/FatFs/src/drivers"/>
 					<Add directory="D:/STM32/Project/Tool/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
 					<Add directory="D:/STM32/Project/Tool/Drivers/CMSIS/Include"/>
-					<Add directory="D:/STM32/Project/Tool/LVGL"/>
-					<Add directory="D:/STM32/Project/Tool/LVGL/porting"/>
-					<Add directory="D:/STM32/Project/Tool/LVGL/src"/>
-					<Add directory="D:/STM32/Project/Tool/LVGL/src/lv_font"/>
+					<Add directory="D:/STM32/Project/Tool/."/>
+					<Add directory="D:/STM32/Project/Tool/lvgl"/>
+					<Add directory="D:/STM32/Project/Tool/lvgl/porting"/>
+					<Add directory="D:/STM32/Project/Tool/lvgl/src"/>
+					<Add directory="D:/STM32/Project/Tool/lvgl/src/lv_font"/>
 					<Add directory="D:/STM32/Project/Tool/GUI"/>
 					<Add directory="D:/STM32/Project/Tool/GUI/generated"/>
 					<Add directory="D:/STM32/Project/Tool/GUI/custom"/>
@@ -80,10 +81,11 @@
 					<Add directory="D:/STM32/Project/Tool/Middlewares/Third_Party/FatFs/src/drivers"/>
 					<Add directory="D:/STM32/Project/Tool/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
 					<Add directory="D:/STM32/Project/Tool/Drivers/CMSIS/Include"/>
-					<Add directory="D:/STM32/Project/Tool/LVGL"/>
-					<Add directory="D:/STM32/Project/Tool/LVGL/porting"/>
-					<Add directory="D:/STM32/Project/Tool/LVGL/src"/>
-					<Add directory="D:/STM32/Project/Tool/LVGL/src/lv_font"/>
+					<Add directory="D:/STM32/Project/Tool/."/>
+					<Add directory="D:/STM32/Project/Tool/lvgl"/>
+					<Add directory="D:/STM32/Project/Tool/lvgl/porting"/>
+					<Add directory="D:/STM32/Project/Tool/lvgl/src"/>
+					<Add directory="D:/STM32/Project/Tool/lvgl/src/lv_font"/>
 					<Add directory="D:/STM32/Project/Tool/GUI"/>
 					<Add directory="D:/STM32/Project/Tool/GUI/generated"/>
 					<Add directory="D:/STM32/Project/Tool/GUI/custom"/>
@@ -148,6 +150,9 @@
 		<Unit filename="D:/STM32/Project/Tool/Core/Inc/tim.h">
 			<Option target="Tool.elf"/>
 		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Core/Inc/usart.h">
+			<Option target="Tool.elf"/>
+		</Unit>
 		<Unit filename="D:/STM32/Project/Tool/Core/Src/gpio.c">
 			<Option target="Tool.elf"/>
 		</Unit>
@@ -179,6 +184,9 @@
 			<Option target="Tool.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32/Project/Tool/Core/Src/tim.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Core/Src/usart.c">
 			<Option target="Tool.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32/Project/Tool/Core/Startup/startup_stm32f103vctx.s">
@@ -319,6 +327,9 @@
 		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
 			<Option target="Tool.elf"/>
 		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+			<Option target="Tool.elf"/>
+		</Unit>
 		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h">
 			<Option target="Tool.elf"/>
 		</Unit>
@@ -350,6 +361,9 @@
 			<Option target="Tool.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h">
 			<Option target="Tool.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h">
@@ -406,6 +420,9 @@
 		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
 			<Option target="Tool.elf"/>
 		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
+			<Option target="Tool.elf"/>
+		</Unit>
 		<Unit filename="D:/STM32/Project/Tool/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c">
 			<Option target="Tool.elf"/>
 		</Unit>
@@ -422,9 +439,6 @@
 			<Option target="Tool.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32/Project/Tool/FATFS/Target/ffconf.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/GUI/GUI.guiguider">
 			<Option target="Tool.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32/Project/Tool/GUI/custom/custom.c">
@@ -463,682 +477,10 @@
 		<Unit filename="D:/STM32/Project/Tool/GUI/generated/guider_fonts/guider_fonts.mk">
 			<Option target="Tool.elf"/>
 		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/GUI/generated/guider_fonts/lv_font_arial_14.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/GUI/generated/guider_fonts/lv_font_arial_48.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/GUI/generated/guider_fonts/lv_font_simsun_12.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/GUI/generated/images/_scan_example_alpha_224x204.c">
-			<Option target="Tool.elf"/>
-		</Unit>
 		<Unit filename="D:/STM32/Project/Tool/GUI/generated/images/images.mk">
 			<Option target="Tool.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32/Project/Tool/GUI/generated/setup_scr_screen.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/lv_conf.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/lvgl.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/porting/lv_port_disp.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/porting/lv_port_disp.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/porting/lv_port_fs.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/porting/lv_port_fs.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/porting/lv_port_indev.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/porting/lv_port_indev.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_api_map.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_conf_internal.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_conf_kconfig.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_core/lv_core.mk">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_core/lv_disp.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_core/lv_disp.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_core/lv_group.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_core/lv_group.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_core/lv_indev.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_core/lv_indev.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_core/lv_obj.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_core/lv_obj.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_core/lv_obj_style_dec.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_core/lv_refr.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_core/lv_refr.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_core/lv_style.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_core/lv_style.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_draw.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_draw.mk">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_draw_arc.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_draw_arc.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_draw_blend.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_draw_blend.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_draw_img.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_draw_img.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_draw_label.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_draw_label.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_draw_line.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_draw_line.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_draw_mask.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_draw_mask.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_draw_rect.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_draw_rect.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_draw_triangle.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_draw_triangle.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_img_buf.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_img_buf.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_img_cache.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_img_cache.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_img_decoder.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_draw/lv_img_decoder.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font.mk">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_dejavu_16_persian_hebrew.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_fmt_txt.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_fmt_txt.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_loader.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_loader.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_10.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_12.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_12_subpx.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_14.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_16.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_18.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_20.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_22.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_24.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_26.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_28.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_28_compressed.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_30.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_32.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_34.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_36.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_38.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_40.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_42.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_44.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_46.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_48.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_montserrat_8.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_simsun_16_cjk.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_unscii_16.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_font_unscii_8.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_font/lv_symbol_def.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_gpu/lv_gpu.mk">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_gpu/lv_gpu_nxp_pxp.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_gpu/lv_gpu_nxp_pxp.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_gpu/lv_gpu_nxp_pxp_osa.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_gpu/lv_gpu_nxp_pxp_osa.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_gpu/lv_gpu_nxp_vglite.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_gpu/lv_gpu_nxp_vglite.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_gpu/lv_gpu_stm32_dma2d.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_gpu/lv_gpu_stm32_dma2d.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_hal/lv_hal.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_hal/lv_hal.mk">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_hal/lv_hal_disp.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_hal/lv_hal_disp.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_hal/lv_hal_indev.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_hal/lv_hal_indev.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_hal/lv_hal_tick.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_hal/lv_hal_tick.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_anim.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_anim.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_area.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_area.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_async.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_async.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_bidi.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_bidi.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_color.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_color.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_debug.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_debug.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_fs.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_fs.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_gc.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_gc.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_ll.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_ll.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_log.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_log.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_math.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_math.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_mem.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_mem.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_misc.mk">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_printf.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_printf.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_task.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_task.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_templ.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_templ.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_txt.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_txt.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_txt_ap.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_txt_ap.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_types.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_utils.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_misc/lv_utils.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_themes/lv_theme.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_themes/lv_theme.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_themes/lv_theme_empty.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_themes/lv_theme_empty.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_themes/lv_theme_material.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_themes/lv_theme_material.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_themes/lv_theme_mono.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_themes/lv_theme_mono.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_themes/lv_theme_template.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_themes/lv_theme_template.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_themes/lv_themes.mk">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_arc.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_arc.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_bar.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_bar.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_btn.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_btn.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_btnmatrix.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_btnmatrix.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_calendar.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_calendar.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_canvas.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_canvas.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_chart.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_chart.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_checkbox.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_checkbox.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_cont.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_cont.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_cpicker.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_cpicker.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_dropdown.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_dropdown.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_gauge.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_gauge.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_img.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_img.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_imgbtn.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_imgbtn.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_keyboard.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_keyboard.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_label.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_label.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_led.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_led.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_line.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_line.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_linemeter.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_linemeter.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_list.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_list.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_msgbox.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_msgbox.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_objmask.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_objmask.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_objx_templ.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_objx_templ.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_page.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_page.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_roller.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_roller.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_slider.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_slider.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_spinbox.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_spinbox.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_spinner.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_spinner.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_switch.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_switch.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_table.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_table.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_tabview.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_tabview.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_textarea.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_textarea.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_tileview.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_tileview.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_widgets.mk">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_win.c">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lv_widgets/lv_win.h">
-			<Option target="Tool.elf"/>
-		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/LVGL/src/lvgl.h">
 			<Option target="Tool.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32/Project/Tool/Middlewares/Third_Party/FatFs/src/diskio.c">
@@ -1198,10 +540,16 @@
 		<Unit filename="D:/STM32/Project/Tool/User/Inc/lcd.h">
 			<Option target="Tool.elf"/>
 		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/User/Inc/queue.h">
+			<Option target="Tool.elf"/>
+		</Unit>
 		<Unit filename="D:/STM32/Project/Tool/User/Inc/settings.h">
 			<Option target="Tool.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32/Project/Tool/User/Inc/sys.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/User/Inc/test.h">
 			<Option target="Tool.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32/Project/Tool/User/Inc/touch.h">
@@ -1228,10 +576,679 @@
 		<Unit filename="D:/STM32/Project/Tool/User/Src/lcd.c">
 			<Option target="Tool.elf"/>
 		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/User/Src/queue.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/User/Src/test.c">
+			<Option target="Tool.elf"/>
+		</Unit>
 		<Unit filename="D:/STM32/Project/Tool/User/Src/touch.c">
 			<Option target="Tool.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32/Project/Tool/User/Src/user.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/lv_conf.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/lvgl.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/porting/lv_port_disp.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/porting/lv_port_disp.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/porting/lv_port_fs.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/porting/lv_port_fs.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/porting/lv_port_indev.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/porting/lv_port_indev.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_api_map.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_conf_internal.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_conf_kconfig.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_core/lv_core.mk">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_core/lv_disp.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_core/lv_disp.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_core/lv_group.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_core/lv_group.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_core/lv_indev.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_core/lv_indev.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_core/lv_obj.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_core/lv_obj.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_core/lv_obj_style_dec.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_core/lv_refr.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_core/lv_refr.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_core/lv_style.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_core/lv_style.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_draw/lv_draw.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_draw/lv_draw.mk">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_draw/lv_draw_arc.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_draw/lv_draw_arc.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_draw/lv_draw_blend.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_draw/lv_draw_blend.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_draw/lv_draw_img.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_draw/lv_draw_img.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_draw/lv_draw_label.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_draw/lv_draw_label.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_draw/lv_draw_line.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_draw/lv_draw_line.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_draw/lv_draw_mask.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_draw/lv_draw_mask.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_draw/lv_draw_rect.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_draw/lv_draw_rect.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_draw/lv_draw_triangle.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_draw/lv_draw_triangle.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_draw/lv_img_buf.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_draw/lv_img_buf.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_draw/lv_img_cache.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_draw/lv_img_cache.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_draw/lv_img_decoder.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_draw/lv_img_decoder.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/JetBrains_Mono.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font.mk">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font_dejavu_16_persian_hebrew.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font_fmt_txt.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font_fmt_txt.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font_loader.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font_loader.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font_montserrat_10.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font_montserrat_12.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font_montserrat_12_subpx.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font_montserrat_14.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font_montserrat_16.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font_montserrat_18.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font_montserrat_20.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font_montserrat_22.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font_montserrat_24.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font_montserrat_26.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font_montserrat_28.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font_montserrat_28_compressed.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font_montserrat_30.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font_montserrat_32.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font_montserrat_34.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font_montserrat_36.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font_montserrat_38.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font_montserrat_40.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font_montserrat_42.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font_montserrat_44.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font_montserrat_46.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font_montserrat_48.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font_montserrat_8.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font_simsun_16_cjk.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font_unscii_16.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font_unscii_8.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_symbol_def.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_gpu/lv_gpu.mk">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_gpu/lv_gpu_nxp_pxp.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_gpu/lv_gpu_nxp_pxp.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_gpu/lv_gpu_nxp_pxp_osa.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_gpu/lv_gpu_nxp_pxp_osa.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_gpu/lv_gpu_nxp_vglite.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_gpu/lv_gpu_nxp_vglite.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_gpu/lv_gpu_stm32_dma2d.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_gpu/lv_gpu_stm32_dma2d.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_hal/lv_hal.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_hal/lv_hal.mk">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_hal/lv_hal_disp.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_hal/lv_hal_disp.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_hal/lv_hal_indev.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_hal/lv_hal_indev.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_hal/lv_hal_tick.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_hal/lv_hal_tick.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_anim.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_anim.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_area.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_area.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_async.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_async.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_bidi.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_bidi.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_color.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_color.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_debug.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_debug.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_fs.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_fs.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_gc.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_gc.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_ll.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_ll.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_log.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_log.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_math.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_math.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_mem.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_mem.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_misc.mk">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_printf.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_printf.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_task.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_task.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_templ.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_templ.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_txt.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_txt.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_txt_ap.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_txt_ap.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_types.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_utils.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_misc/lv_utils.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_themes/lv_theme.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_themes/lv_theme.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_themes/lv_theme_empty.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_themes/lv_theme_empty.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_themes/lv_theme_material.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_themes/lv_theme_material.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_themes/lv_theme_mono.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_themes/lv_theme_mono.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_themes/lv_theme_template.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_themes/lv_theme_template.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_themes/lv_themes.mk">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_arc.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_arc.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_bar.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_bar.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_btn.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_btn.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_btnmatrix.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_btnmatrix.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_calendar.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_calendar.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_canvas.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_canvas.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_chart.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_chart.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_checkbox.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_checkbox.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_cont.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_cont.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_cpicker.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_cpicker.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_dropdown.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_dropdown.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_gauge.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_gauge.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_img.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_img.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_imgbtn.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_imgbtn.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_keyboard.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_keyboard.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_label.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_label.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_led.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_led.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_line.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_line.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_linemeter.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_linemeter.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_list.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_list.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_msgbox.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_msgbox.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_objmask.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_objmask.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_objx_templ.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_objx_templ.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_page.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_page.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_roller.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_roller.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_slider.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_slider.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_spinbox.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_spinbox.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_spinner.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_spinner.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_switch.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_switch.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_table.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_table.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_tabview.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_tabview.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_textarea.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_textarea.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_tileview.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_tileview.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_widgets.mk">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_win.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_widgets/lv_win.h">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lvgl.h">
 			<Option target="Tool.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32/Project/Tool/CMakeLists.txt">

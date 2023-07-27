@@ -96,7 +96,7 @@ void lv_port_fs_init(void) {
 
     /*Set up fields...*/
     fs_drv.file_size = sizeof(file_t);
-    fs_drv.letter = 'F';
+    fs_drv.letter = '0';
     fs_drv.open_cb = fs_open;
     fs_drv.close_cb = fs_close;
     fs_drv.read_cb = fs_read;
@@ -120,16 +120,29 @@ void lv_port_fs_init(void) {
 /**********************
  *   STATIC FUNCTIONS
  **********************/
+#include "func.h"
+#include "fatfs.h"
+#include "sdio.h"
 
 /* Initialize your Storage device and File system. */
 static void fs_init(void) {
     /*E.g. for FatFS initialize the SD card and FatFS itself*/
     /*You code here*/
-    SD_fs = (FATFS *) lv_mem_alloc(sizeof(FATFS));
-    if (!f_mount(SD_fs, "0:", 1)) {
-        printf("mount ok");
-    } else {
-        printf("mount failed");
+    MX_SDIO_SD_Init();
+    BSP_SD_Init();
+    MX_FATFS_Init();
+
+    FATFS *fs = (FATFS *) lv_mem_alloc(sizeof(FATFS));
+    FRESULT fres = FR_NOT_READY;
+
+    /* 挂载设备 */
+    if (fres != FR_OK) {
+        /* 这里的驱动号我直接使用字符串“SD:”，在ffconf.h文件中的FF_VOLUME_STRS定义 */
+        fres = f_mount(fs, (TCHAR const *) "0:", 1);
+        if (fres != FR_OK) {
+            printf("SD Card mounted error. (%d)\n", fres);
+        } else
+            printf("SD Card mounted successfully.\n\n");
     }
 }
 
@@ -143,32 +156,31 @@ static void fs_init(void) {
  */
 static lv_fs_res_t fs_open(lv_fs_drv_t *drv, void *file_p, const char *path, lv_fs_mode_t mode) {
     lv_fs_res_t res = LV_FS_RES_NOT_IMP;
-    TCHAR *fatfs_path = NULL;
-    BYTE opt_mode;
-    if (mode == LV_FS_MODE_WR) {
-        /*Open a file for write*/
-        opt_mode = FA_CREATE_ALWAYS | FA_WRITE;
-        /* Add your code here*/
-    } else if (mode == LV_FS_MODE_RD) {
-        /*Open a file for read*/
-        opt_mode = FA_READ;
-        /* Add your code here*/
-    } else if (mode == (LV_FS_MODE_WR | LV_FS_MODE_RD)) {
-        /*Open a file for read and write*/
-        opt_mode = FA_WRITE | FA_READ | FA_CREATE_ALWAYS;
-        /* Add your code here*/
-    }
-    fatfs_path = (TCHAR *) lv_mem_alloc(sizeof(TCHAR) * strlen(path) + 4);
-    snprintf(fatfs_path, sizeof(TCHAR) * strlen(path) + 4, "0:/%s", path);
-    FRESULT fres = f_open((FIL *) file_p, fatfs_path, opt_mode);
+    char *path_buf = NULL;
+    uint8_t opt_mode = 0;
+    uint16_t path_len = strlen(path);
 
+    path_buf = (char *) lv_mem_alloc(sizeof(char) * (path_len + 4));
+    sprintf(path_buf, "%s", path);
+
+    /* 文件操作方法，将FatFS的转换成LVGL的操作方法 */
+    if (mode == LV_FS_MODE_WR) {
+        opt_mode = FA_OPEN_ALWAYS | FA_WRITE;
+    } else if (mode == LV_FS_MODE_RD) {
+        opt_mode = FA_OPEN_EXISTING | FA_READ;
+    } else if (mode == (LV_FS_MODE_WR | LV_FS_MODE_RD)) {
+        opt_mode = FA_WRITE | FA_READ;
+    }
+
+    /* 调用FatFs的函数 */
+    FRESULT fres = f_open((FIL *) file_p, path_buf, opt_mode);
     if (fres != FR_OK) {
         printf("f_open error (%d)\n", fres);
         res = LV_FS_RES_NOT_IMP;
     } else
         res = LV_FS_RES_OK;
 
-    lv_mem_free(fatfs_path);
+    lv_mem_free(path_buf);
 
     return res;
 }
@@ -203,7 +215,7 @@ static lv_fs_res_t fs_read(lv_fs_drv_t *drv, void *file_p, void *buf, uint32_t b
     lv_fs_res_t res = LV_FS_RES_NOT_IMP;
 
     /* Add your code here*/
-    FRESULT fres = f_read((FIL *) file_p, buf, btr, (UINT *) br);
+    FRESULT fres = f_read((FIL *) file_p, buf, btr, br);
     if (fres != FR_OK) {
         printf("f_read error (%d)\n", fres);
         return LV_FS_RES_NOT_IMP;
@@ -221,10 +233,8 @@ static lv_fs_res_t fs_read(lv_fs_drv_t *drv, void *file_p, void *buf, uint32_t b
  * @return LV_FS_RES_OK or any error from lv_fs_res_t enum
  */
 static lv_fs_res_t fs_write(lv_fs_drv_t *drv, void *file_p, const void *buf, uint32_t btw, uint32_t *bw) {
-    lv_fs_res_t res = LV_FS_RES_NOT_IMP;
-
     /* Add your code here*/
-    FRESULT fres = f_write((FIL *) file_p, buf, btw, (UINT *) bw);
+    FRESULT fres = f_write((FIL *) file_p, buf, btw, bw);
     if (fres != FR_OK) {
         printf("f_read error (%d)\n", fres);
         return LV_FS_RES_NOT_IMP;
@@ -241,8 +251,6 @@ static lv_fs_res_t fs_write(lv_fs_drv_t *drv, void *file_p, const void *buf, uin
  *         any error from lv_fs_res_t enum
  */
 static lv_fs_res_t fs_seek(lv_fs_drv_t *drv, void *file_p, uint32_t pos) {
-    lv_fs_res_t res = LV_FS_RES_NOT_IMP;
-
     /* Add your code here*/
     FRESULT fres = f_lseek((FIL *) file_p, pos);
     if (fres != FR_OK) {

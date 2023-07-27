@@ -37,4 +37,5 @@ CMakeFiles/Tool.elf.dir/Core/Src/stm32f1xx_it.c.obj: \
  D:\STM32\Project\Tool\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_spi.h \
  D:\STM32\Project\Tool\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_tim.h \
  D:\STM32\Project\Tool\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_tim_ex.h \
+ D:\STM32\Project\Tool\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_uart.h \
  D:\STM32\Project\Tool\Core\Inc/stm32f1xx_it.h

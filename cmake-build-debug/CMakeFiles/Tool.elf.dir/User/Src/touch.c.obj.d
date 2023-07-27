@@ -40,6 +40,7 @@ CMakeFiles/Tool.elf.dir/User/Src/touch.c.obj: \
  D:\STM32\Project\Tool\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_spi.h \
  D:\STM32\Project\Tool\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_tim.h \
  D:\STM32\Project\Tool\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_tim_ex.h \
+ D:\STM32\Project\Tool\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_uart.h \
  D:\STM32\Project\Tool\Core\Inc/gpio.h \
  D:\STM32\Project\Tool\Core\Inc/main.h \
  D:\STM32\Project\Tool\User\Inc/base.h \
