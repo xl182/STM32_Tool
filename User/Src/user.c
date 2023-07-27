@@ -29,4 +29,5 @@ int main() {
         touch_scan();
         lv_task_handler();
     }
+
 }
