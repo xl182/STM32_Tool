@@ -10,10 +10,11 @@
 #include "lv_port_disp.h"
 #include "lv_port_indev.h"
 #include "lv_port_fs.h"
+#include "lv_bmp/lv_bmp.h"
 #include "gui_guider.h"
 #include "events_init.h"
 
-extern lv_ui *ui;
+extern lv_ui *gui;
 
 void gui_init();
 

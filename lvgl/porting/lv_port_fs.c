@@ -215,7 +215,7 @@ static lv_fs_res_t fs_read(lv_fs_drv_t *drv, void *file_p, void *buf, uint32_t b
     lv_fs_res_t res = LV_FS_RES_NOT_IMP;
 
     /* Add your code here*/
-    FRESULT fres = f_read((FIL *) file_p, buf, btr, br);
+    FRESULT fres = f_read((FIL *) file_p, buf, btr, (UINT *)br);
     if (fres != FR_OK) {
         printf("f_read error (%d)\n", fres);
         return LV_FS_RES_NOT_IMP;
@@ -234,7 +234,7 @@ static lv_fs_res_t fs_read(lv_fs_drv_t *drv, void *file_p, void *buf, uint32_t b
  */
 static lv_fs_res_t fs_write(lv_fs_drv_t *drv, void *file_p, const void *buf, uint32_t btw, uint32_t *bw) {
     /* Add your code here*/
-    FRESULT fres = f_write((FIL *) file_p, buf, btw, bw);
+    FRESULT fres = f_write((FIL *) file_p, buf, btw, (UINT *)bw);
     if (fres != FR_OK) {
         printf("f_read error (%d)\n", fres);
         return LV_FS_RES_NOT_IMP;

@@ -6,6 +6,8 @@
 #ifndef LVGL_H
 #define LVGL_H
 
+#define USE_LVGL
+
 #ifdef __cplusplus
 extern "C" {
 #endif

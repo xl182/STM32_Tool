@@ -8,6 +8,7 @@
 #include "base.h"
 
 //#define USE_LVGL
+//#define LCD_ST7735
 #define LCD_ILI9486
 #define USE_TOUCH
 

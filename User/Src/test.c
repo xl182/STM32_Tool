@@ -214,9 +214,10 @@ void sdio_test() {
 }
 
 void lv_fs_test() {
+#include "guider_customer_fonts.h"
     static lv_style_t label_style;									// 创建一个风格
     lv_style_init(&label_style);									// 初始化风格
-    lv_style_set_text_font(&label_style, LV_STATE_DEFAULT, &JetBrains_Mono);// 设置风格的字体
+    lv_style_set_text_font(&label_style, LV_STATE_DEFAULT, &JetBrainsMono);// 设置风格的字体
 
     lv_obj_t * textlabel = lv_label_create(lv_scr_act(), NULL);			// 在主屏幕创建一个标签
     lv_label_set_long_mode(textlabel, LV_LABEL_LONG_BREAK);				// 标签长内容框，保持控件宽度，内容过长就换行

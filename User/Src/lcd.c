@@ -282,6 +282,7 @@ void LCD_Init(void) {
     HAL_Delay(100);          // delay 20 ms
     LCD_RES_HIGH;        // LCD_RST=1
     HAL_Delay(50);
+
     LCD_Init_Command();
     xLCD.InitOK = 1;
 }
@@ -305,9 +306,11 @@ void sendByte(u8 data) {
 void sendShort(u16 data) {
     LCD_CS_LOW;            // SPI设备片选拉低，开始通信
     LCD_RS_HIGH;           // RS高: 数据， RS低: 指令
-    spiSendByte((data >> 8) & 0xF8);
-    spiSendByte((data >> 3) & 0xFC);
-    spiSendByte(data << 3);
+//    spiSendByte((data >> 8) & 0xF8);
+//    spiSendByte((data >> 3) & 0xFC);
+//    spiSendByte(data << 3);
+    spiSendByte((data >> 8));
+    spiSendByte(data);
     LCD_CS_HIGH;           // SPI设备片选拉高，结束通信
 }
 #endif
@@ -587,4 +590,5 @@ void LCD_String(u16 x, u16 y, char *pFont, u8 size, u32 fColor, u32 bColor) {
         }
     }
 }
+
 #endif

@@ -976,6 +976,54 @@ GUI/generated/gui_guider.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tool.elf.dir\build.make CMakeFiles/Tool.elf.dir/GUI/generated/gui_guider.c.s
 .PHONY : GUI/generated/gui_guider.c.s
 
+GUI/generated/images/_background_480x320.obj: GUI/generated/images/_background_480x320.c.obj
+.PHONY : GUI/generated/images/_background_480x320.obj
+
+# target to build an object file
+GUI/generated/images/_background_480x320.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tool.elf.dir\build.make CMakeFiles/Tool.elf.dir/GUI/generated/images/_background_480x320.c.obj
+.PHONY : GUI/generated/images/_background_480x320.c.obj
+
+GUI/generated/images/_background_480x320.i: GUI/generated/images/_background_480x320.c.i
+.PHONY : GUI/generated/images/_background_480x320.i
+
+# target to preprocess a source file
+GUI/generated/images/_background_480x320.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tool.elf.dir\build.make CMakeFiles/Tool.elf.dir/GUI/generated/images/_background_480x320.c.i
+.PHONY : GUI/generated/images/_background_480x320.c.i
+
+GUI/generated/images/_background_480x320.s: GUI/generated/images/_background_480x320.c.s
+.PHONY : GUI/generated/images/_background_480x320.s
+
+# target to generate assembly for a file
+GUI/generated/images/_background_480x320.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tool.elf.dir\build.make CMakeFiles/Tool.elf.dir/GUI/generated/images/_background_480x320.c.s
+.PHONY : GUI/generated/images/_background_480x320.c.s
+
+GUI/generated/images/_scan_example_100x100.obj: GUI/generated/images/_scan_example_100x100.c.obj
+.PHONY : GUI/generated/images/_scan_example_100x100.obj
+
+# target to build an object file
+GUI/generated/images/_scan_example_100x100.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tool.elf.dir\build.make CMakeFiles/Tool.elf.dir/GUI/generated/images/_scan_example_100x100.c.obj
+.PHONY : GUI/generated/images/_scan_example_100x100.c.obj
+
+GUI/generated/images/_scan_example_100x100.i: GUI/generated/images/_scan_example_100x100.c.i
+.PHONY : GUI/generated/images/_scan_example_100x100.i
+
+# target to preprocess a source file
+GUI/generated/images/_scan_example_100x100.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tool.elf.dir\build.make CMakeFiles/Tool.elf.dir/GUI/generated/images/_scan_example_100x100.c.i
+.PHONY : GUI/generated/images/_scan_example_100x100.c.i
+
+GUI/generated/images/_scan_example_100x100.s: GUI/generated/images/_scan_example_100x100.c.s
+.PHONY : GUI/generated/images/_scan_example_100x100.s
+
+# target to generate assembly for a file
+GUI/generated/images/_scan_example_100x100.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tool.elf.dir\build.make CMakeFiles/Tool.elf.dir/GUI/generated/images/_scan_example_100x100.c.s
+.PHONY : GUI/generated/images/_scan_example_100x100.c.s
+
 GUI/generated/setup_scr_screen.obj: GUI/generated/setup_scr_screen.c.obj
 .PHONY : GUI/generated/setup_scr_screen.obj
 
@@ -1456,6 +1504,30 @@ lvgl/porting/lv_port_indev.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tool.elf.dir\build.make CMakeFiles/Tool.elf.dir/lvgl/porting/lv_port_indev.c.s
 .PHONY : lvgl/porting/lv_port_indev.c.s
 
+lvgl/src/lv_bmp/lv_bmp.obj: lvgl/src/lv_bmp/lv_bmp.c.obj
+.PHONY : lvgl/src/lv_bmp/lv_bmp.obj
+
+# target to build an object file
+lvgl/src/lv_bmp/lv_bmp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tool.elf.dir\build.make CMakeFiles/Tool.elf.dir/lvgl/src/lv_bmp/lv_bmp.c.obj
+.PHONY : lvgl/src/lv_bmp/lv_bmp.c.obj
+
+lvgl/src/lv_bmp/lv_bmp.i: lvgl/src/lv_bmp/lv_bmp.c.i
+.PHONY : lvgl/src/lv_bmp/lv_bmp.i
+
+# target to preprocess a source file
+lvgl/src/lv_bmp/lv_bmp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tool.elf.dir\build.make CMakeFiles/Tool.elf.dir/lvgl/src/lv_bmp/lv_bmp.c.i
+.PHONY : lvgl/src/lv_bmp/lv_bmp.c.i
+
+lvgl/src/lv_bmp/lv_bmp.s: lvgl/src/lv_bmp/lv_bmp.c.s
+.PHONY : lvgl/src/lv_bmp/lv_bmp.s
+
+# target to generate assembly for a file
+lvgl/src/lv_bmp/lv_bmp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tool.elf.dir\build.make CMakeFiles/Tool.elf.dir/lvgl/src/lv_bmp/lv_bmp.c.s
+.PHONY : lvgl/src/lv_bmp/lv_bmp.c.s
+
 lvgl/src/lv_core/lv_disp.obj: lvgl/src/lv_core/lv_disp.c.obj
 .PHONY : lvgl/src/lv_core/lv_disp.obj
 
@@ -1864,29 +1936,53 @@ lvgl/src/lv_draw/lv_img_decoder.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tool.elf.dir\build.make CMakeFiles/Tool.elf.dir/lvgl/src/lv_draw/lv_img_decoder.c.s
 .PHONY : lvgl/src/lv_draw/lv_img_decoder.c.s
 
-lvgl/src/lv_font/JetBrains_Mono.obj: lvgl/src/lv_font/JetBrains_Mono.c.obj
-.PHONY : lvgl/src/lv_font/JetBrains_Mono.obj
+lvgl/src/lv_font/JetBrainsMono.obj: lvgl/src/lv_font/JetBrainsMono.c.obj
+.PHONY : lvgl/src/lv_font/JetBrainsMono.obj
 
 # target to build an object file
-lvgl/src/lv_font/JetBrains_Mono.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tool.elf.dir\build.make CMakeFiles/Tool.elf.dir/lvgl/src/lv_font/JetBrains_Mono.c.obj
-.PHONY : lvgl/src/lv_font/JetBrains_Mono.c.obj
+lvgl/src/lv_font/JetBrainsMono.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tool.elf.dir\build.make CMakeFiles/Tool.elf.dir/lvgl/src/lv_font/JetBrainsMono.c.obj
+.PHONY : lvgl/src/lv_font/JetBrainsMono.c.obj
 
-lvgl/src/lv_font/JetBrains_Mono.i: lvgl/src/lv_font/JetBrains_Mono.c.i
-.PHONY : lvgl/src/lv_font/JetBrains_Mono.i
+lvgl/src/lv_font/JetBrainsMono.i: lvgl/src/lv_font/JetBrainsMono.c.i
+.PHONY : lvgl/src/lv_font/JetBrainsMono.i
 
 # target to preprocess a source file
-lvgl/src/lv_font/JetBrains_Mono.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tool.elf.dir\build.make CMakeFiles/Tool.elf.dir/lvgl/src/lv_font/JetBrains_Mono.c.i
-.PHONY : lvgl/src/lv_font/JetBrains_Mono.c.i
+lvgl/src/lv_font/JetBrainsMono.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tool.elf.dir\build.make CMakeFiles/Tool.elf.dir/lvgl/src/lv_font/JetBrainsMono.c.i
+.PHONY : lvgl/src/lv_font/JetBrainsMono.c.i
 
-lvgl/src/lv_font/JetBrains_Mono.s: lvgl/src/lv_font/JetBrains_Mono.c.s
-.PHONY : lvgl/src/lv_font/JetBrains_Mono.s
+lvgl/src/lv_font/JetBrainsMono.s: lvgl/src/lv_font/JetBrainsMono.c.s
+.PHONY : lvgl/src/lv_font/JetBrainsMono.s
 
 # target to generate assembly for a file
-lvgl/src/lv_font/JetBrains_Mono.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tool.elf.dir\build.make CMakeFiles/Tool.elf.dir/lvgl/src/lv_font/JetBrains_Mono.c.s
-.PHONY : lvgl/src/lv_font/JetBrains_Mono.c.s
+lvgl/src/lv_font/JetBrainsMono.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tool.elf.dir\build.make CMakeFiles/Tool.elf.dir/lvgl/src/lv_font/JetBrainsMono.c.s
+.PHONY : lvgl/src/lv_font/JetBrainsMono.c.s
+
+lvgl/src/lv_font/TimesNewRoman.obj: lvgl/src/lv_font/TimesNewRoman.c.obj
+.PHONY : lvgl/src/lv_font/TimesNewRoman.obj
+
+# target to build an object file
+lvgl/src/lv_font/TimesNewRoman.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tool.elf.dir\build.make CMakeFiles/Tool.elf.dir/lvgl/src/lv_font/TimesNewRoman.c.obj
+.PHONY : lvgl/src/lv_font/TimesNewRoman.c.obj
+
+lvgl/src/lv_font/TimesNewRoman.i: lvgl/src/lv_font/TimesNewRoman.c.i
+.PHONY : lvgl/src/lv_font/TimesNewRoman.i
+
+# target to preprocess a source file
+lvgl/src/lv_font/TimesNewRoman.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tool.elf.dir\build.make CMakeFiles/Tool.elf.dir/lvgl/src/lv_font/TimesNewRoman.c.i
+.PHONY : lvgl/src/lv_font/TimesNewRoman.c.i
+
+lvgl/src/lv_font/TimesNewRoman.s: lvgl/src/lv_font/TimesNewRoman.c.s
+.PHONY : lvgl/src/lv_font/TimesNewRoman.s
+
+# target to generate assembly for a file
+lvgl/src/lv_font/TimesNewRoman.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tool.elf.dir\build.make CMakeFiles/Tool.elf.dir/lvgl/src/lv_font/TimesNewRoman.c.s
+.PHONY : lvgl/src/lv_font/TimesNewRoman.c.s
 
 lvgl/src/lv_font/lv_font.obj: lvgl/src/lv_font/lv_font.c.obj
 .PHONY : lvgl/src/lv_font/lv_font.obj
@@ -4259,6 +4355,12 @@ help:
 	@echo ... GUI/generated/gui_guider.obj
 	@echo ... GUI/generated/gui_guider.i
 	@echo ... GUI/generated/gui_guider.s
+	@echo ... GUI/generated/images/_background_480x320.obj
+	@echo ... GUI/generated/images/_background_480x320.i
+	@echo ... GUI/generated/images/_background_480x320.s
+	@echo ... GUI/generated/images/_scan_example_100x100.obj
+	@echo ... GUI/generated/images/_scan_example_100x100.i
+	@echo ... GUI/generated/images/_scan_example_100x100.s
 	@echo ... GUI/generated/setup_scr_screen.obj
 	@echo ... GUI/generated/setup_scr_screen.i
 	@echo ... GUI/generated/setup_scr_screen.s
@@ -4319,6 +4421,9 @@ help:
 	@echo ... lvgl/porting/lv_port_indev.obj
 	@echo ... lvgl/porting/lv_port_indev.i
 	@echo ... lvgl/porting/lv_port_indev.s
+	@echo ... lvgl/src/lv_bmp/lv_bmp.obj
+	@echo ... lvgl/src/lv_bmp/lv_bmp.i
+	@echo ... lvgl/src/lv_bmp/lv_bmp.s
 	@echo ... lvgl/src/lv_core/lv_disp.obj
 	@echo ... lvgl/src/lv_core/lv_disp.i
 	@echo ... lvgl/src/lv_core/lv_disp.s
@@ -4370,9 +4475,12 @@ help:
 	@echo ... lvgl/src/lv_draw/lv_img_decoder.obj
 	@echo ... lvgl/src/lv_draw/lv_img_decoder.i
 	@echo ... lvgl/src/lv_draw/lv_img_decoder.s
-	@echo ... lvgl/src/lv_font/JetBrains_Mono.obj
-	@echo ... lvgl/src/lv_font/JetBrains_Mono.i
-	@echo ... lvgl/src/lv_font/JetBrains_Mono.s
+	@echo ... lvgl/src/lv_font/JetBrainsMono.obj
+	@echo ... lvgl/src/lv_font/JetBrainsMono.i
+	@echo ... lvgl/src/lv_font/JetBrainsMono.s
+	@echo ... lvgl/src/lv_font/TimesNewRoman.obj
+	@echo ... lvgl/src/lv_font/TimesNewRoman.i
+	@echo ... lvgl/src/lv_font/TimesNewRoman.s
 	@echo ... lvgl/src/lv_font/lv_font.obj
 	@echo ... lvgl/src/lv_font/lv_font.i
 	@echo ... lvgl/src/lv_font/lv_font.s

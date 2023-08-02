@@ -22,5 +22,4 @@
 
 #include "gui.h"
 
-
 #endif //TOOL_USER_H

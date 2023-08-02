@@ -73,7 +73,7 @@ include_directories(User/Inc
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE)
 
 file(GLOB_RECURSE SOURCES "User/*.*" "Core/*.*" "FATFS/*.*" "Middlewares/*.*" "Drivers/*.*"
-        "GUI/custom/*.*" "GUI/generated/*.*" "lvgl/*.*")
+        "GUI/custom/*.*" "GUI/generated/*" "lvgl/*.*")
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F103VCTX_FLASH.ld)
 

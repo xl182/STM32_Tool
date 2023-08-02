@@ -133,6 +133,7 @@ void lv_port_disp_init(void) {
  *   STATIC FUNCTIONS
  **********************/
 #include "func.h"
+
 /* Initialize your display and the required peripherals. */
 static void disp_init(void) {
     /*You code here*/
@@ -154,37 +155,62 @@ static void disp_init(void) {
                                 spiSendByte(data);    \
                                 LCD_CS_HIGH
 
+uint8_t reverse_bit8(uint8_t color) {
+    uint8_t res = 0;
+    for (uint8_t i = 0; i < 8; i++) {
+        res <<= 1;
+        res |= color & 0x01;
+        color >>= 1;
+    }
+    return res;
+}
+
 static void disp_flush(lv_disp_drv_t *disp_drv, const lv_area_t *area, lv_color_t *color_p) {
     /*The most simple case (but also the slowest) to put all pixels to the screen one-by-one*/
-    uint16_t x = 0, y = 0;
-    for (y = area->y1; y <= area->y2; y++) {
-        sendOrder_def(0x2A);
-        sendByte_def(area->x1 >> 8);   // 起始位置x高位，因为1.8寸屏是128*160, 不大于255, 直接写0省事
-        sendByte_def(area->x1); // 起始位置x低位，值传递时自动舍弃了高8位，也省得运算了
-        sendByte_def(area->x2 >> 8);   // 起始位置y高位
-        sendByte_def(area->x2);   // 起始位置x位位
-        sendOrder_def(0x2B);
-        sendByte_def(y >> 8);
-        sendByte_def(y);
-        sendByte_def(y >> 8);
-        sendByte_def(y);
-        sendOrder_def(0x2c);  // 发送写数据命令
+//    uint16_t x, y;
+//    for (y = area->y1; y <= area->y2; y++) {
+//        sendOrder_def(0x2A);
+//        sendByte_def(area->x1 >> 8);   // 起始位置x高位，因为1.8寸屏是128*160, 不大于255, 直接写0省事
+//        sendByte_def(area->x1); // 起始位置x低位，值传递时自动舍弃了高8位，也省得运算了
+//        sendByte_def(area->x2 >> 8);   // 起始位置y高位
+//        sendByte_def(area->x2);   // 起始位置x位位
+//        sendOrder_def(0x2B);
+//        sendByte_def(y >> 8);
+//        sendByte_def(y);
+//        sendByte_def(y >> 8);
+//        sendByte_def(y);
+//        sendOrder_def(0x2c);  // 发送写数据命令
+//
+//        LCD_CS_LOW;            // SPI设备片选拉低，开始通信
+//        LCD_RS_HIGH;           // RS高: 数据， RS低: 指令
+//        for (x = area->x1; x <= area->x2; x++) {
+//            spiSendByte(color_p->full >> 8);
+//            spiSendByte(color_p->full);
+//            /* Put a pixel to the display. For example: */
+//            color_p++;
+//        }
+//        LCD_CS_HIGH;           // SPI设备片选拉高，结束通信
+//    }
 
-        LCD_CS_LOW;            // SPI设备片选拉低，开始通信
-        LCD_RS_HIGH;           // RS高: 数据， RS低: 指令
+    /* IMPORTANT!!!
+     * Inform the graphics library that you are ready with the flushing*/
+//    disp_drv->buffer->flushing = 0;
+//    disp_drv->buffer->flushing_last = 0;
+
+    int32_t x;
+    int32_t y;
+    for (y = area->y1; y <= area->y2; y++) {
         for (x = area->x1; x <= area->x2; x++) {
-            spiSendByte(color_p->full >> 8);
-            spiSendByte(color_p->full);
             /* Put a pixel to the display. For example: */
+            /* put_px(x, y, *color_p)*/
+            drawPoint(x, y, color_p->full);
             color_p++;
         }
-        LCD_CS_HIGH;           // SPI设备片选拉高，结束通信
     }
 
     /* IMPORTANT!!!
      * Inform the graphics library that you are ready with the flushing*/
-    disp_drv->buffer->flushing = 0;
-    disp_drv->buffer->flushing_last = 0;
+    lv_disp_flush_ready(disp_drv);
 }
 
 /*OPTIONAL: GPU INTERFACE*/

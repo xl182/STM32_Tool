@@ -477,6 +477,12 @@
 		<Unit filename="D:/STM32/Project/Tool/GUI/generated/guider_fonts/guider_fonts.mk">
 			<Option target="Tool.elf"/>
 		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/GUI/generated/images/_background_480x320.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/GUI/generated/images/_scan_example_100x100.c">
+			<Option target="Tool.elf"/>
+		</Unit>
 		<Unit filename="D:/STM32/Project/Tool/GUI/generated/images/images.mk">
 			<Option target="Tool.elf"/>
 		</Unit>
@@ -615,6 +621,12 @@
 		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_api_map.h">
 			<Option target="Tool.elf"/>
 		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_bmp/lv_bmp.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_bmp/lv_bmp.h">
+			<Option target="Tool.elf"/>
+		</Unit>
 		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_conf_internal.h">
 			<Option target="Tool.elf"/>
 		</Unit>
@@ -735,7 +747,10 @@
 		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_draw/lv_img_decoder.h">
 			<Option target="Tool.elf"/>
 		</Unit>
-		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/JetBrains_Mono.c">
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/JetBrainsMono.c">
+			<Option target="Tool.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/TimesNewRoman.c">
 			<Option target="Tool.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32/Project/Tool/lvgl/src/lv_font/lv_font.c">

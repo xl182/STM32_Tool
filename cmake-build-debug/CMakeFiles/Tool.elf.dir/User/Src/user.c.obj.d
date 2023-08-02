@@ -241,6 +241,7 @@ CMakeFiles/Tool.elf.dir/User/Src/user.c.obj: \
  D:\STM32\Project\Tool\User\Inc/at24c02.h \
  D:\STM32\Project\Tool\Core\Inc/i2c.h \
  D:\STM32\Project\Tool\lvgl\porting/lv_port_fs.h \
+ D:\STM32\Project\Tool\lvgl\src/lv_bmp/lv_bmp.h \
  D:\STM32\Project\Tool\GUI\generated/gui_guider.h \
  d:\stm32\project\tool\lvgl\lvgl.h \
  D:\STM32\Project\Tool\GUI\generated\guider_fonts/guider_fonts.h \
