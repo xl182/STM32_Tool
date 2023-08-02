@@ -20,49 +20,22 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1aca1990-d501-441a-bb55-31fcb52e932a" name="更改" comment="font file ok">
-      <change afterPath="$PROJECT_DIR$/GUI/generated/guider_customer_fonts/guider_customer_fonts.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/generated/guider_customer_fonts/guider_customer_fonts.mk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User/Src/ILI9486/FONT.H" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User/Src/ILI9486/lcd.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User/Src/ILI9486/lcd.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_bmp/lv_bmp.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_bmp/lv_bmp.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_font/TimesNewRoman.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/guider_customer_fonts/guider_customer_fonts.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/guider_customer_fonts/guider_customer_fonts.mk" afterDir="false" />
+    <list default="true" id="1aca1990-d501-441a-bb55-31fcb52e932a" name="更改" comment="to correct lcd init function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists_template.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists_template.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User/Inc/gui.h" beforeDir="false" afterPath="$PROJECT_DIR$/User/Inc/gui.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User/Inc/lcd.h" beforeDir="false" afterPath="$PROJECT_DIR$/User/Inc/lcd.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User/Inc/settings.h" beforeDir="false" afterPath="$PROJECT_DIR$/User/Inc/settings.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User/Inc/user.h" beforeDir="false" afterPath="$PROJECT_DIR$/User/Inc/user.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User/Src/gui.c" beforeDir="false" afterPath="$PROJECT_DIR$/User/Src/gui.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User/Inc/base.h" beforeDir="false" afterPath="$PROJECT_DIR$/User/Inc/base.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User/Inc/func.h" beforeDir="false" afterPath="$PROJECT_DIR$/User/Inc/func.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User/Src/ILI9486/lcd.c" beforeDir="false" afterPath="$PROJECT_DIR$/User/Src/ILI9486/lcd.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User/Src/func.c" beforeDir="false" afterPath="$PROJECT_DIR$/User/Src/func.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/User/Src/lcd.c" beforeDir="false" afterPath="$PROJECT_DIR$/User/Src/lcd.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User/Src/test.c" beforeDir="false" afterPath="$PROJECT_DIR$/User/Src/test.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/User/Src/user.c" beforeDir="false" afterPath="$PROJECT_DIR$/User/Src/user.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/User/Src/func.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/User/Src/func.c.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/User/Src/func.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/User/Src/func.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/User/Src/lcd.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/User/Src/lcd.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/User/Src/touch.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/User/Src/touch.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/User/Src/user.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/User/Src/user.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/User/Src/user.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/User/Src/user.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/compiler_depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tool.elf.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Tool.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Tool.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Tool.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Tool.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Tool.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Tool.elf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Tool.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Tool.hex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Tool.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Tool.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lvgl/lvgl.h" beforeDir="false" afterPath="$PROJECT_DIR$/lvgl/lvgl.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lvgl/porting/lv_port_disp.c" beforeDir="false" afterPath="$PROJECT_DIR$/lvgl/porting/lv_port_disp.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lvgl/porting/lv_port_fs.c" beforeDir="false" afterPath="$PROJECT_DIR$/lvgl/porting/lv_port_fs.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lvgl/src/lv_font/JetBrains_Mono.c" beforeDir="false" afterPath="$PROJECT_DIR$/lvgl/src/lv_font/JetBrainsMono.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,11 +85,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\STM32\Project\Tool\User\Src\ILI9486" />
       <recent name="D:\STM32\Project\Tool\GUI\generated\images" />
       <recent name="D:\STM32\Project\Tool\lvgl\src\lv_bmp" />
       <recent name="D:\STM32\Project\Tool\GUI\generated" />
       <recent name="D:\STM32\Project\Tool\tmp" />
-      <recent name="D:\STM32\Project\Tool\lvgl\src\lv_font" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\STM32\Project\Tool\lvgl\src\lv_font" />
@@ -162,7 +135,7 @@
       <workItem from="1690907479971" duration="468000" />
       <workItem from="1690909480552" duration="2015000" />
       <workItem from="1690912396963" duration="1000" />
-      <workItem from="1690939872744" duration="3755000" />
+      <workItem from="1690939872744" duration="17310000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1690203854790</created>
@@ -192,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690457804425</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="to correct lcd init function">
+      <created>1690944194506</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690944194506</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +205,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="touch ok" />
     <MESSAGE value="font file ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="font file ok" />
+    <MESSAGE value="to correct lcd init function" />
+    <option name="LAST_COMMIT_MESSAGE" value="to correct lcd init function" />
   </component>
 </project>

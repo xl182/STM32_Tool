@@ -20,6 +20,15 @@ void sendByte(u8 Data);                                    // 向液晶屏发送
 void sendShort(u16 Data);                                    // 向液晶屏发送：数据，16位
 void setCursor(u16 x_start, u16 y_start, u16 x_end, u16 y_end); // 设置显示区域
 
+u16 LCD_BGR2RGB(u16 c) {
+    u16 r, g, b, rgb;
+    b = (c >> 0) & 0x1f;
+    g = (c >> 5) & 0x3f;
+    r = (c >> 11) & 0x1f;
+    rgb = (b << 11) + (g << 5) + (r << 0);
+    return (rgb);
+}
+
 // SPI发送传送1字节
 u8 spiSendByte(u8 data) {
     while ((SPI2->SR & SPI_FLAG_TXE) == RESET) {};
@@ -142,7 +151,10 @@ void LCD_Init_Command(void) {
 #ifdef LCD_ILI9486
 
 void LCD_Init_Command(void) {
+#define LCD_INIT_FUNC_TEST 1
+
 //*************4.0inch ILI9486初始化**********//
+#if LCD_INIT_FUNC_TEST == 0
     sendOrder(0xCF);
     sendByte(0x00);
     sendByte(0x81);
@@ -216,7 +228,8 @@ void LCD_Init_Command(void) {
     sendByte(0x0F);
     sendByte(0x07);
     sendByte(0x00);
-    sendOrder(0XE1); //Set Gamma
+
+    sendOrder(0xE1); //Set Gamma
     sendByte(0x00);
     sendByte(0x19);
     sendByte(0x1B);
@@ -232,12 +245,6 @@ void LCD_Init_Command(void) {
     sendByte(0x30);
     sendByte(0x38);
     sendByte(0x0F);
-
-    sendOrder(0x36);
-    if (LCD_DIR == 1) sendByte(0xC0);  // 重要：显示方向控制，C0/00/A0/60,  C8/08/A8/68
-    if (LCD_DIR == 2) sendByte(0x00);
-    if (LCD_DIR == 3) sendByte(0xA0);
-    if (LCD_DIR == 4) sendByte(0x60);
 
     sendOrder(0X2A);
     sendByte(0x00);
@@ -257,14 +264,120 @@ void LCD_Init_Command(void) {
     sendOrder(0x11);
     HAL_Delay(120);
     sendOrder(0x29);
+#else
+    sendOrder(0xCF);
+    sendByte(0x00);
+    sendByte(0xD9); //C1
+    sendByte(0X30);
+
+    sendOrder(0xED);
+    sendByte(0x64);
+    sendByte(0x03);
+    sendByte(0X12);
+    sendByte(0X81);
+
+    sendOrder(0xE8);
+    sendByte(0x85);
+    sendByte(0x10);
+    sendByte(0x7A);
+
+    sendOrder(0xCB);
+    sendByte(0x39);
+    sendByte(0x2C);
+    sendByte(0x00);
+    sendByte(0x34);
+    sendByte(0x02);
+
+    sendOrder(0xF7);
+    sendByte(0x20);
+
+    sendOrder(0xEA);
+    sendByte(0x00);
+    sendByte(0x00);
+
+    sendOrder(0xC0);    //Power control
+    sendByte(0x1B);   //VRH[5:0]
+    sendOrder(0xC1);    //Power control
+    sendByte(0x12);   //SAP[2:0];BT[3:0] //0x01
+    sendOrder(0xC5);    //VCM control
+    sendByte(0x26);     //3F
+    sendByte(0x26);     //3C
+    sendOrder(0xC7);    //VCM control2
+    sendByte(0XB0);
+
+    sendOrder(0x3A);
+    sendByte(0x55);
+
+    sendOrder(0xB1);
+    sendByte(0x00);
+    sendByte(0x1A);
+
+    sendOrder(0xB6);    // Display Function Control
+    sendByte(0x0A);
+    sendByte(0xA2);
+
+    sendOrder(0xF2);    // 3Gamma Function Disable
+    sendByte(0x00);
+
+    sendOrder(0x26);    //Gamma curve selected
+    sendByte(0x01);
+
+    sendOrder(0xE0); //Set Gamma
+    sendByte(0x1F);
+    sendByte(0x24);
+    sendByte(0x24);
+    sendByte(0x0D);
+    sendByte(0x12);
+    sendByte(0x09);
+    sendByte(0x52);
+    sendByte(0xB7);
+    sendByte(0x3F);
+    sendByte(0x0C);
+    sendByte(0x15);
+    sendByte(0x06);
+    sendByte(0x0E);
+    sendByte(0x08);
+    sendByte(0x00);
+
+    sendOrder(0XE1); //Set Gamma
+    sendByte(0x00);
+    sendByte(0x1B);
+    sendByte(0x1B);
+    sendByte(0x02);
+    sendByte(0x0E);
+    sendByte(0x06);
+    sendByte(0x2E);
+    sendByte(0x48);
+    sendByte(0x3F);
+    sendByte(0x03);
+    sendByte(0x0A);
+    sendByte(0x09);
+    sendByte(0x31);
+    sendByte(0x37);
+    sendByte(0x1F);
+
+    sendOrder(0x2B);
+    sendByte(0x00);
+    sendByte(0x00);
+    sendByte(0x01);
+    sendByte(0x3f);
+
+    sendOrder(0x2A);
+    sendByte(0x00);
+    sendByte(0x00);
+    sendByte(0x00);
+    sendByte(0xef);
+
+    sendOrder(0x11); //Exit Sleep
+    delay_ms(120);
+
+    sendOrder(0x29); //display on
+#endif
 }
 
 #endif
 
 void LCD_Init(void) {
-    xLCD.InitOK = 0;
-    xLCD.bColor = BLACK;
-
     // 显示方向像素匹配
     if ((LCD_DIR == 1) || (LCD_DIR == 3)) {
         xLCD.width = LCD_WIDTH;       // 屏宽度像素，超过此值驱动芯片会自动换行，注意：如果屏幕右边有花屏，就加大这个值
@@ -282,9 +395,13 @@ void LCD_Init(void) {
     HAL_Delay(100);          // delay 20 ms
     LCD_RES_HIGH;        // LCD_RST=1
     HAL_Delay(50);
-
     LCD_Init_Command();
-    xLCD.InitOK = 1;
+
+    sendOrder(0x36);
+    if (LCD_DIR == 1) sendByte(0xC0);  // 重要：显示方向控制，C0/00/A0/60,  C8/08/A8/68
+    if (LCD_DIR == 2) sendByte(0x00);
+    if (LCD_DIR == 3) sendByte(0xA0);
+    if (LCD_DIR == 4) sendByte(0x60);
 }
 
 
@@ -306,11 +423,9 @@ void sendByte(u8 data) {
 void sendShort(u16 data) {
     LCD_CS_LOW;            // SPI设备片选拉低，开始通信
     LCD_RS_HIGH;           // RS高: 数据， RS低: 指令
-//    spiSendByte((data >> 8) & 0xF8);
-//    spiSendByte((data >> 3) & 0xFC);
-//    spiSendByte(data << 3);
-    spiSendByte((data >> 8));
-    spiSendByte(data);
+    spiSendByte((data >> 8) & 0xF8);
+    spiSendByte((data >> 3) & 0xFC);
+    spiSendByte(data << 3);
     LCD_CS_HIGH;           // SPI设备片选拉高，结束通信
 }
 #endif
@@ -320,8 +435,11 @@ void sendShort(u16 data) {
 void sendShort(u16 data) {
     LCD_CS_LOW;            // SPI设备片选拉低，开始通信
     LCD_RS_HIGH;           // RS高: 数据， RS低: 指令
+//    spiSendByte(data >> 8);
+//    spiSendByte(data & 0x00ff);
+    data = ~data;
     spiSendByte(data >> 8);
-    spiSendByte(data);
+    spiSendByte(data & 0x00ff);
     LCD_CS_HIGH;           // SPI设备片选拉高，结束通信
 }
 

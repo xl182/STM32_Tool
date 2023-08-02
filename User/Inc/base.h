@@ -15,4 +15,6 @@
 #define u8 uint8_t
 #define u16 uint16_t
 #define u32 uint32_t
+#define delay_ms HAL_Delay
+
 #endif //TOOL_BASE_H

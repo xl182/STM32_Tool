@@ -10,5 +10,5 @@
 #include "gui.h"
 
 void set_lcd_brightness(uint8_t lcd_brightness);
-
+uint8_t reverse_bit8(uint8_t data);
 #endif //TOOL_FUNC_H

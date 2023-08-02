@@ -155,16 +155,6 @@ static void disp_init(void) {
                                 spiSendByte(data);    \
                                 LCD_CS_HIGH
 
-uint8_t reverse_bit8(uint8_t color) {
-    uint8_t res = 0;
-    for (uint8_t i = 0; i < 8; i++) {
-        res <<= 1;
-        res |= color & 0x01;
-        color >>= 1;
-    }
-    return res;
-}
-
 static void disp_flush(lv_disp_drv_t *disp_drv, const lv_area_t *area, lv_color_t *color_p) {
     /*The most simple case (but also the slowest) to put all pixels to the screen one-by-one*/
 //    uint16_t x, y;
